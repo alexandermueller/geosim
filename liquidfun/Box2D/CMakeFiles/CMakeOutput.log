@@ -1,0 +1,938 @@
+The system is: Darwin - 12.5.0 - i386
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Clang, found in "/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/g++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is Clang, found in "/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/local/Cellar/cmake/2.8.9/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec4289921910 -configuration Debug
+=== BUILD TARGET cmTryCompileExec4289921910 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4289921910.build/Objects-normal/x86_64
+write-file /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4289921910.build/Objects-normal/x86_64/cmTryCompileExec4289921910.LinkFileList
+write-file /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4289921910.build/Script-FA0331BDA04A4521B75F107F.sh
+chmod 0755 /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4289921910.build/Script-FA0331BDA04A4521B75F107F.sh
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4289921910.build/Objects-normal/x86_64/testCCompiler.o testCCompiler.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4289921910.build/DerivedSources/x86_64 -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4289921910.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4289921910.build/Objects-normal/x86_64/testCCompiler.d --serialize-diagnostics /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4289921910.build/Objects-normal/x86_64/testCCompiler.dia -c /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/testCCompiler.c -o /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4289921910.build/Objects-normal/x86_64/testCCompiler.o
+
+Ld Debug/cmTryCompileExec4289921910 normal x86_64
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.8
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -F/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -filelist /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4289921910.build/Objects-normal/x86_64/cmTryCompileExec4289921910.LinkFileList -mmacosx-version-min=10.8 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4289921910.build/Objects-normal/x86_64/cmTryCompileExec4289921910_dependency_info.dat -o /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4289921910
+
+PhaseScriptExecution CMake\ PostBuild\ Rules CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4289921910.build/Script-FA0331BDA04A4521B75F107F.sh
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    /bin/sh -c /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4289921910.build/Script-FA0331BDA04A4521B75F107F.sh
+echo "Depend check for xcode"
+Depend check for xcode
+cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp && make -C /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp -f /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.cmTryCompileExec4289921910.Debug
+make[1]: Nothing to be done for `PostBuild.cmTryCompileExec4289921910.Debug'.
+
+** BUILD SUCCEEDED **
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/local/Cellar/cmake/2.8.9/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec197169672 -configuration Debug
+=== BUILD TARGET cmTryCompileExec197169672 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec197169672.build/Objects-normal/x86_64
+write-file /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec197169672.build/Objects-normal/x86_64/cmTryCompileExec197169672.LinkFileList
+write-file /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec197169672.build/Script-8E1C19959E054D26936CA71C.sh
+chmod 0755 /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec197169672.build/Script-8E1C19959E054D26936CA71C.sh
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec197169672.build/Objects-normal/x86_64/CMakeCCompilerABI.o /usr/local/Cellar/cmake/2.8.9/share/cmake/Modules/CMakeCCompilerABI.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec197169672.build/DerivedSources/x86_64 -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec197169672.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec197169672.build/Objects-normal/x86_64/CMakeCCompilerABI.d --serialize-diagnostics /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec197169672.build/Objects-normal/x86_64/CMakeCCompilerABI.dia -c /usr/local/Cellar/cmake/2.8.9/share/cmake/Modules/CMakeCCompilerABI.c -o /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec197169672.build/Objects-normal/x86_64/CMakeCCompilerABI.o
+
+Ld Debug/cmTryCompileExec197169672 normal x86_64
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.8
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -F/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -filelist /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec197169672.build/Objects-normal/x86_64/cmTryCompileExec197169672.LinkFileList -mmacosx-version-min=10.8 -v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec197169672.build/Objects-normal/x86_64/cmTryCompileExec197169672_dependency_info.dat -o /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec197169672
+Apple LLVM version 5.1 (clang-503.0.40) (based on LLVM 3.4svn)
+Target: x86_64-apple-darwin12.5.0
+Thread model: posix
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.8.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -o /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec197169672 -L/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -filelist /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec197169672.build/Objects-normal/x86_64/cmTryCompileExec197169672.LinkFileList -search_paths_first -headerpad_max_install_names -dependency_info /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec197169672.build/Objects-normal/x86_64/cmTryCompileExec197169672_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/lib/darwin/libclang_rt.osx.a -F/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug
+
+PhaseScriptExecution CMake\ PostBuild\ Rules CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec197169672.build/Script-8E1C19959E054D26936CA71C.sh
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    /bin/sh -c /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec197169672.build/Script-8E1C19959E054D26936CA71C.sh
+echo "Depend check for xcode"
+Depend check for xcode
+cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp && make -C /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp -f /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.cmTryCompileExec197169672.Debug
+make[1]: Nothing to be done for `PostBuild.cmTryCompileExec197169672.Debug'.
+
+** BUILD SUCCEEDED **
+
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/local/Cellar/cmake/2.8.9/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec541391319 -configuration Debug
+=== BUILD TARGET cmTryCompileExec541391319 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec541391319.build/Objects-normal/x86_64
+write-file /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec541391319.build/Objects-normal/x86_64/cmTryCompileExec541391319.LinkFileList
+write-file /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec541391319.build/Script-9A932DD2C153464889A53E15.sh
+chmod 0755 /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec541391319.build/Script-9A932DD2C153464889A53E15.sh
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec541391319.build/Objects-normal/x86_64/testCXXCompiler.o testCXXCompiler.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -Wno-sign-conversion -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec541391319.build/DerivedSources/x86_64 -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec541391319.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -g -MMD -MT dependencies -MF /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec541391319.build/Objects-normal/x86_64/testCXXCompiler.d --serialize-diagnostics /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec541391319.build/Objects-normal/x86_64/testCXXCompiler.dia -c /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/testCXXCompiler.cxx -o /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec541391319.build/Objects-normal/x86_64/testCXXCompiler.o
+
+Ld Debug/cmTryCompileExec541391319 normal x86_64
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.8
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -F/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -filelist /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec541391319.build/Objects-normal/x86_64/cmTryCompileExec541391319.LinkFileList -mmacosx-version-min=10.8 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec541391319.build/Objects-normal/x86_64/cmTryCompileExec541391319_dependency_info.dat -o /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec541391319
+
+PhaseScriptExecution CMake\ PostBuild\ Rules CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec541391319.build/Script-9A932DD2C153464889A53E15.sh
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    /bin/sh -c /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec541391319.build/Script-9A932DD2C153464889A53E15.sh
+echo "Depend check for xcode"
+Depend check for xcode
+cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp && make -C /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp -f /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.cmTryCompileExec541391319.Debug
+make[1]: Nothing to be done for `PostBuild.cmTryCompileExec541391319.Debug'.
+
+** BUILD SUCCEEDED **
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/local/Cellar/cmake/2.8.9/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec3271302233 -configuration Debug
+=== BUILD TARGET cmTryCompileExec3271302233 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3271302233.build
+write-file /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3271302233.build/Script-B382B8897CAB47319547EF11.sh
+chmod 0755 /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3271302233.build/Script-B382B8897CAB47319547EF11.sh
+/bin/mkdir -p /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3271302233.build/Objects-normal/x86_64
+write-file /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3271302233.build/Objects-normal/x86_64/cmTryCompileExec3271302233.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3271302233.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o /usr/local/Cellar/cmake/2.8.9/share/cmake/Modules/CMakeCXXCompilerABI.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -Wno-sign-conversion -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3271302233.build/DerivedSources/x86_64 -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3271302233.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -g -MMD -MT dependencies -MF /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3271302233.build/Objects-normal/x86_64/CMakeCXXCompilerABI.d --serialize-diagnostics /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3271302233.build/Objects-normal/x86_64/CMakeCXXCompilerABI.dia -c /usr/local/Cellar/cmake/2.8.9/share/cmake/Modules/CMakeCXXCompilerABI.cpp -o /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3271302233.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o
+
+Ld Debug/cmTryCompileExec3271302233 normal x86_64
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.8
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -F/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -filelist /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3271302233.build/Objects-normal/x86_64/cmTryCompileExec3271302233.LinkFileList -mmacosx-version-min=10.8 -v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3271302233.build/Objects-normal/x86_64/cmTryCompileExec3271302233_dependency_info.dat -o /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3271302233
+Apple LLVM version 5.1 (clang-503.0.40) (based on LLVM 3.4svn)
+Target: x86_64-apple-darwin12.5.0
+Thread model: posix
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.8.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -o /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3271302233 -L/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -filelist /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3271302233.build/Objects-normal/x86_64/cmTryCompileExec3271302233.LinkFileList -search_paths_first -headerpad_max_install_names -dependency_info /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3271302233.build/Objects-normal/x86_64/cmTryCompileExec3271302233_dependency_info.dat -lstdc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/lib/darwin/libclang_rt.osx.a -F/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug
+
+PhaseScriptExecution CMake\ PostBuild\ Rules CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3271302233.build/Script-B382B8897CAB47319547EF11.sh
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    /bin/sh -c /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3271302233.build/Script-B382B8897CAB47319547EF11.sh
+echo "Depend check for xcode"
+Depend check for xcode
+cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp && make -C /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp -f /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.cmTryCompileExec3271302233.Debug
+make[1]: Nothing to be done for `PostBuild.cmTryCompileExec3271302233.Debug'.
+
+** BUILD SUCCEEDED **
+
+
+
+Determining if the function XOpenDisplay exists in the /usr/X11R6/lib/libX11.dylib;/usr/X11R6/lib/libXext.dylib passed with the following output:
+Change Dir: /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/local/Cellar/cmake/2.8.9/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec4259320593 -configuration Debug
+=== BUILD TARGET cmTryCompileExec4259320593 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4259320593.build
+write-file /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4259320593.build/Script-78EAA9D9FA8F4FEBABBF4DA6.sh
+chmod 0755 /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4259320593.build/Script-78EAA9D9FA8F4FEBABBF4DA6.sh
+/bin/mkdir -p /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4259320593.build/Objects-normal/x86_64
+write-file /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4259320593.build/Objects-normal/x86_64/cmTryCompileExec4259320593.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4259320593.build/Objects-normal/x86_64/CheckFunctionExists.o /usr/local/Cellar/cmake/2.8.9/share/cmake/Modules/CheckFunctionExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4259320593.build/DerivedSources/x86_64 -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4259320593.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -DCHECK_FUNCTION_EXISTS=XOpenDisplay -MMD -MT dependencies -MF /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4259320593.build/Objects-normal/x86_64/CheckFunctionExists.d --serialize-diagnostics /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4259320593.build/Objects-normal/x86_64/CheckFunctionExists.dia -c /usr/local/Cellar/cmake/2.8.9/share/cmake/Modules/CheckFunctionExists.c -o /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4259320593.build/Objects-normal/x86_64/CheckFunctionExists.o
+
+Ld Debug/cmTryCompileExec4259320593 normal x86_64
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.8
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -L/usr/X11R6/lib/Debug -L/usr/X11R6/lib -F/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -filelist /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4259320593.build/Objects-normal/x86_64/cmTryCompileExec4259320593.LinkFileList -mmacosx-version-min=10.8 -Wl,-search_paths_first -Wl,-headerpad_max_install_names /usr/X11R6/lib/libX11.dylib /usr/X11R6/lib/libXext.dylib -lm -Xlinker -dependency_info -Xlinker /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4259320593.build/Objects-normal/x86_64/cmTryCompileExec4259320593_dependency_info.dat -o /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4259320593
+ld: warning: directory not found for option '-L/usr/X11R6/lib/Debug'
+
+PhaseScriptExecution CMake\ PostBuild\ Rules CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4259320593.build/Script-78EAA9D9FA8F4FEBABBF4DA6.sh
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    /bin/sh -c /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4259320593.build/Script-78EAA9D9FA8F4FEBABBF4DA6.sh
+echo "Depend check for xcode"
+Depend check for xcode
+cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp && make -C /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp -f /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.cmTryCompileExec4259320593.Debug
+make[1]: Nothing to be done for `PostBuild.cmTryCompileExec4259320593.Debug'.
+
+** BUILD SUCCEEDED **
+
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/local/Cellar/cmake/2.8.9/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec1654692161 -configuration Debug
+=== BUILD TARGET cmTryCompileExec1654692161 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1654692161.build
+write-file /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1654692161.build/Script-1ECBE49FDDD741DD95A0C1BD.sh
+chmod 0755 /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1654692161.build/Script-1ECBE49FDDD741DD95A0C1BD.sh
+/bin/mkdir -p /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1654692161.build/Objects-normal/x86_64
+write-file /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1654692161.build/Objects-normal/x86_64/cmTryCompileExec1654692161.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1654692161.build/Objects-normal/x86_64/CheckFunctionExists.o /usr/local/Cellar/cmake/2.8.9/share/cmake/Modules/CheckFunctionExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1654692161.build/DerivedSources/x86_64 -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1654692161.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -DCHECK_FUNCTION_EXISTS=gethostbyname -MMD -MT dependencies -MF /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1654692161.build/Objects-normal/x86_64/CheckFunctionExists.d --serialize-diagnostics /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1654692161.build/Objects-normal/x86_64/CheckFunctionExists.dia -c /usr/local/Cellar/cmake/2.8.9/share/cmake/Modules/CheckFunctionExists.c -o /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1654692161.build/Objects-normal/x86_64/CheckFunctionExists.o
+
+Ld Debug/cmTryCompileExec1654692161 normal x86_64
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.8
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -F/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -filelist /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1654692161.build/Objects-normal/x86_64/cmTryCompileExec1654692161.LinkFileList -mmacosx-version-min=10.8 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -lm -Xlinker -dependency_info -Xlinker /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1654692161.build/Objects-normal/x86_64/cmTryCompileExec1654692161_dependency_info.dat -o /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1654692161
+
+PhaseScriptExecution CMake\ PostBuild\ Rules CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1654692161.build/Script-1ECBE49FDDD741DD95A0C1BD.sh
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    /bin/sh -c /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1654692161.build/Script-1ECBE49FDDD741DD95A0C1BD.sh
+echo "Depend check for xcode"
+Depend check for xcode
+cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp && make -C /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp -f /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.cmTryCompileExec1654692161.Debug
+make[1]: Nothing to be done for `PostBuild.cmTryCompileExec1654692161.Debug'.
+
+** BUILD SUCCEEDED **
+
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/local/Cellar/cmake/2.8.9/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec2342414266 -configuration Debug
+=== BUILD TARGET cmTryCompileExec2342414266 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2342414266.build/Objects-normal/x86_64
+write-file /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2342414266.build/Objects-normal/x86_64/cmTryCompileExec2342414266.LinkFileList
+write-file /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2342414266.build/Script-378DA509CCD94F238661C969.sh
+chmod 0755 /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2342414266.build/Script-378DA509CCD94F238661C969.sh
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2342414266.build/Objects-normal/x86_64/CheckFunctionExists.o /usr/local/Cellar/cmake/2.8.9/share/cmake/Modules/CheckFunctionExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2342414266.build/DerivedSources/x86_64 -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2342414266.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -DCHECK_FUNCTION_EXISTS=connect -MMD -MT dependencies -MF /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2342414266.build/Objects-normal/x86_64/CheckFunctionExists.d --serialize-diagnostics /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2342414266.build/Objects-normal/x86_64/CheckFunctionExists.dia -c /usr/local/Cellar/cmake/2.8.9/share/cmake/Modules/CheckFunctionExists.c -o /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2342414266.build/Objects-normal/x86_64/CheckFunctionExists.o
+
+Ld Debug/cmTryCompileExec2342414266 normal x86_64
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.8
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -F/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -filelist /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2342414266.build/Objects-normal/x86_64/cmTryCompileExec2342414266.LinkFileList -mmacosx-version-min=10.8 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -lm -Xlinker -dependency_info -Xlinker /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2342414266.build/Objects-normal/x86_64/cmTryCompileExec2342414266_dependency_info.dat -o /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2342414266
+
+PhaseScriptExecution CMake\ PostBuild\ Rules CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2342414266.build/Script-378DA509CCD94F238661C969.sh
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    /bin/sh -c /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2342414266.build/Script-378DA509CCD94F238661C969.sh
+echo "Depend check for xcode"
+Depend check for xcode
+cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp && make -C /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp -f /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.cmTryCompileExec2342414266.Debug
+make[1]: Nothing to be done for `PostBuild.cmTryCompileExec2342414266.Debug'.
+
+** BUILD SUCCEEDED **
+
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/local/Cellar/cmake/2.8.9/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec3595038127 -configuration Debug
+=== BUILD TARGET cmTryCompileExec3595038127 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3595038127.build/Objects-normal/x86_64
+write-file /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3595038127.build/Objects-normal/x86_64/cmTryCompileExec3595038127.LinkFileList
+write-file /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3595038127.build/Script-32D982C8040849749E16E1E0.sh
+chmod 0755 /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3595038127.build/Script-32D982C8040849749E16E1E0.sh
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3595038127.build/Objects-normal/x86_64/CheckFunctionExists.o /usr/local/Cellar/cmake/2.8.9/share/cmake/Modules/CheckFunctionExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3595038127.build/DerivedSources/x86_64 -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3595038127.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -DCHECK_FUNCTION_EXISTS=remove -MMD -MT dependencies -MF /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3595038127.build/Objects-normal/x86_64/CheckFunctionExists.d --serialize-diagnostics /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3595038127.build/Objects-normal/x86_64/CheckFunctionExists.dia -c /usr/local/Cellar/cmake/2.8.9/share/cmake/Modules/CheckFunctionExists.c -o /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3595038127.build/Objects-normal/x86_64/CheckFunctionExists.o
+
+Ld Debug/cmTryCompileExec3595038127 normal x86_64
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.8
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -F/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -filelist /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3595038127.build/Objects-normal/x86_64/cmTryCompileExec3595038127.LinkFileList -mmacosx-version-min=10.8 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -lm -Xlinker -dependency_info -Xlinker /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3595038127.build/Objects-normal/x86_64/cmTryCompileExec3595038127_dependency_info.dat -o /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3595038127
+
+PhaseScriptExecution CMake\ PostBuild\ Rules CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3595038127.build/Script-32D982C8040849749E16E1E0.sh
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    /bin/sh -c /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3595038127.build/Script-32D982C8040849749E16E1E0.sh
+echo "Depend check for xcode"
+Depend check for xcode
+cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp && make -C /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp -f /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.cmTryCompileExec3595038127.Debug
+make[1]: Nothing to be done for `PostBuild.cmTryCompileExec3595038127.Debug'.
+
+** BUILD SUCCEEDED **
+
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/local/Cellar/cmake/2.8.9/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec2871947621 -configuration Debug
+=== BUILD TARGET cmTryCompileExec2871947621 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2871947621.build
+write-file /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2871947621.build/Script-EA044D3B7EB343E2A38ABA2C.sh
+chmod 0755 /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2871947621.build/Script-EA044D3B7EB343E2A38ABA2C.sh
+/bin/mkdir -p /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2871947621.build/Objects-normal/x86_64
+write-file /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2871947621.build/Objects-normal/x86_64/cmTryCompileExec2871947621.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2871947621.build/Objects-normal/x86_64/CheckFunctionExists.o /usr/local/Cellar/cmake/2.8.9/share/cmake/Modules/CheckFunctionExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2871947621.build/DerivedSources/x86_64 -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2871947621.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -DCHECK_FUNCTION_EXISTS=shmat -MMD -MT dependencies -MF /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2871947621.build/Objects-normal/x86_64/CheckFunctionExists.d --serialize-diagnostics /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2871947621.build/Objects-normal/x86_64/CheckFunctionExists.dia -c /usr/local/Cellar/cmake/2.8.9/share/cmake/Modules/CheckFunctionExists.c -o /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2871947621.build/Objects-normal/x86_64/CheckFunctionExists.o
+
+Ld Debug/cmTryCompileExec2871947621 normal x86_64
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.8
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -F/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -filelist /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2871947621.build/Objects-normal/x86_64/cmTryCompileExec2871947621.LinkFileList -mmacosx-version-min=10.8 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -lm -Xlinker -dependency_info -Xlinker /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2871947621.build/Objects-normal/x86_64/cmTryCompileExec2871947621_dependency_info.dat -o /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2871947621
+
+PhaseScriptExecution CMake\ PostBuild\ Rules CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2871947621.build/Script-EA044D3B7EB343E2A38ABA2C.sh
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    /bin/sh -c /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2871947621.build/Script-EA044D3B7EB343E2A38ABA2C.sh
+echo "Depend check for xcode"
+Depend check for xcode
+cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp && make -C /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp -f /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.cmTryCompileExec2871947621.Debug
+make[1]: Nothing to be done for `PostBuild.cmTryCompileExec2871947621.Debug'.
+
+** BUILD SUCCEEDED **
+
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/local/Cellar/cmake/2.8.9/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec1266172377 -configuration Debug
+=== BUILD TARGET cmTryCompileExec1266172377 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1266172377.build/Objects-normal/x86_64
+write-file /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1266172377.build/Objects-normal/x86_64/cmTryCompileExec1266172377.LinkFileList
+write-file /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1266172377.build/Script-4A37FE1A026D45308B29D95C.sh
+chmod 0755 /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1266172377.build/Script-4A37FE1A026D45308B29D95C.sh
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1266172377.build/Objects-normal/x86_64/CheckFunctionExists.o /usr/local/Cellar/cmake/2.8.9/share/cmake/Modules/CheckFunctionExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1266172377.build/DerivedSources/x86_64 -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1266172377.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -MMD -MT dependencies -MF /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1266172377.build/Objects-normal/x86_64/CheckFunctionExists.d --serialize-diagnostics /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1266172377.build/Objects-normal/x86_64/CheckFunctionExists.dia -c /usr/local/Cellar/cmake/2.8.9/share/cmake/Modules/CheckFunctionExists.c -o /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1266172377.build/Objects-normal/x86_64/CheckFunctionExists.o
+
+Ld Debug/cmTryCompileExec1266172377 normal x86_64
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.8
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -L/usr/X11R6/lib/Debug -L/usr/X11R6/lib -F/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -filelist /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1266172377.build/Objects-normal/x86_64/cmTryCompileExec1266172377.LinkFileList -mmacosx-version-min=10.8 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -lICE -lm -Xlinker -dependency_info -Xlinker /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1266172377.build/Objects-normal/x86_64/cmTryCompileExec1266172377_dependency_info.dat -o /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1266172377
+ld: warning: directory not found for option '-L/usr/X11R6/lib/Debug'
+
+PhaseScriptExecution CMake\ PostBuild\ Rules CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1266172377.build/Script-4A37FE1A026D45308B29D95C.sh
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    /bin/sh -c /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1266172377.build/Script-4A37FE1A026D45308B29D95C.sh
+echo "Depend check for xcode"
+Depend check for xcode
+cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp && make -C /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp -f /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.cmTryCompileExec1266172377.Debug
+make[1]: Nothing to be done for `PostBuild.cmTryCompileExec1266172377.Debug'.
+
+** BUILD SUCCEEDED **
+
+
+
+Determining if files sys/types.h exist passed with the following output:
+Change Dir: /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/local/Cellar/cmake/2.8.9/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec4227738395 -configuration Debug
+=== BUILD TARGET cmTryCompileExec4227738395 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4227738395.build
+write-file /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4227738395.build/Script-4F80670E3833469BB71D2834.sh
+chmod 0755 /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4227738395.build/Script-4F80670E3833469BB71D2834.sh
+/bin/mkdir -p /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4227738395.build/Objects-normal/x86_64
+write-file /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4227738395.build/Objects-normal/x86_64/cmTryCompileExec4227738395.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4227738395.build/Objects-normal/x86_64/CheckIncludeFiles.o CheckIncludeFiles.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4227738395.build/DerivedSources/x86_64 -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4227738395.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4227738395.build/Objects-normal/x86_64/CheckIncludeFiles.d --serialize-diagnostics /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4227738395.build/Objects-normal/x86_64/CheckIncludeFiles.dia -c /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CheckIncludeFiles.c -o /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4227738395.build/Objects-normal/x86_64/CheckIncludeFiles.o
+
+Ld Debug/cmTryCompileExec4227738395 normal x86_64
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.8
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -F/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -filelist /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4227738395.build/Objects-normal/x86_64/cmTryCompileExec4227738395.LinkFileList -mmacosx-version-min=10.8 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4227738395.build/Objects-normal/x86_64/cmTryCompileExec4227738395_dependency_info.dat -o /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4227738395
+
+PhaseScriptExecution CMake\ PostBuild\ Rules CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4227738395.build/Script-4F80670E3833469BB71D2834.sh
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    /bin/sh -c /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4227738395.build/Script-4F80670E3833469BB71D2834.sh
+echo "Depend check for xcode"
+Depend check for xcode
+cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp && make -C /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp -f /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.cmTryCompileExec4227738395.Debug
+make[1]: Nothing to be done for `PostBuild.cmTryCompileExec4227738395.Debug'.
+
+** BUILD SUCCEEDED **
+
+
+
+Determining if files unistd.h exist passed with the following output:
+Change Dir: /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/local/Cellar/cmake/2.8.9/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec2168425066 -configuration Debug
+=== BUILD TARGET cmTryCompileExec2168425066 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2168425066.build/Objects-normal/x86_64
+write-file /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2168425066.build/Objects-normal/x86_64/cmTryCompileExec2168425066.LinkFileList
+write-file /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2168425066.build/Script-026C43D3D0B7410DA646F27C.sh
+chmod 0755 /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2168425066.build/Script-026C43D3D0B7410DA646F27C.sh
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2168425066.build/Objects-normal/x86_64/CheckIncludeFiles.o CheckIncludeFiles.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2168425066.build/DerivedSources/x86_64 -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2168425066.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2168425066.build/Objects-normal/x86_64/CheckIncludeFiles.d --serialize-diagnostics /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2168425066.build/Objects-normal/x86_64/CheckIncludeFiles.dia -c /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CheckIncludeFiles.c -o /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2168425066.build/Objects-normal/x86_64/CheckIncludeFiles.o
+
+Ld Debug/cmTryCompileExec2168425066 normal x86_64
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.8
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -F/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -filelist /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2168425066.build/Objects-normal/x86_64/cmTryCompileExec2168425066.LinkFileList -mmacosx-version-min=10.8 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2168425066.build/Objects-normal/x86_64/cmTryCompileExec2168425066_dependency_info.dat -o /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2168425066
+
+PhaseScriptExecution CMake\ PostBuild\ Rules CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2168425066.build/Script-026C43D3D0B7410DA646F27C.sh
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    /bin/sh -c /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2168425066.build/Script-026C43D3D0B7410DA646F27C.sh
+echo "Depend check for xcode"
+Depend check for xcode
+cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp && make -C /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp -f /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.cmTryCompileExec2168425066.Debug
+make[1]: Nothing to be done for `PostBuild.cmTryCompileExec2168425066.Debug'.
+
+** BUILD SUCCEEDED **
+
+
+
+Determining if files sys/time.h exist passed with the following output:
+Change Dir: /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/local/Cellar/cmake/2.8.9/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec212423533 -configuration Debug
+=== BUILD TARGET cmTryCompileExec212423533 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec212423533.build/Objects-normal/x86_64
+write-file /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec212423533.build/Objects-normal/x86_64/cmTryCompileExec212423533.LinkFileList
+write-file /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec212423533.build/Script-4B2A0CA387FB479FA3573B7E.sh
+chmod 0755 /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec212423533.build/Script-4B2A0CA387FB479FA3573B7E.sh
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec212423533.build/Objects-normal/x86_64/CheckIncludeFiles.o CheckIncludeFiles.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec212423533.build/DerivedSources/x86_64 -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec212423533.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec212423533.build/Objects-normal/x86_64/CheckIncludeFiles.d --serialize-diagnostics /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec212423533.build/Objects-normal/x86_64/CheckIncludeFiles.dia -c /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CheckIncludeFiles.c -o /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec212423533.build/Objects-normal/x86_64/CheckIncludeFiles.o
+
+Ld Debug/cmTryCompileExec212423533 normal x86_64
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.8
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -F/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -filelist /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec212423533.build/Objects-normal/x86_64/cmTryCompileExec212423533.LinkFileList -mmacosx-version-min=10.8 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec212423533.build/Objects-normal/x86_64/cmTryCompileExec212423533_dependency_info.dat -o /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec212423533
+
+PhaseScriptExecution CMake\ PostBuild\ Rules CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec212423533.build/Script-4B2A0CA387FB479FA3573B7E.sh
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    /bin/sh -c /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec212423533.build/Script-4B2A0CA387FB479FA3573B7E.sh
+echo "Depend check for xcode"
+Depend check for xcode
+cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp && make -C /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp -f /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.cmTryCompileExec212423533.Debug
+make[1]: Nothing to be done for `PostBuild.cmTryCompileExec212423533.Debug'.
+
+** BUILD SUCCEEDED **
+
+
+
+Determining if files stdbool.h exist passed with the following output:
+Change Dir: /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/local/Cellar/cmake/2.8.9/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec2522389942 -configuration Debug
+=== BUILD TARGET cmTryCompileExec2522389942 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2522389942.build/Objects-normal/x86_64
+write-file /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2522389942.build/Objects-normal/x86_64/cmTryCompileExec2522389942.LinkFileList
+write-file /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2522389942.build/Script-C9D05F84897649A9AB1A713B.sh
+chmod 0755 /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2522389942.build/Script-C9D05F84897649A9AB1A713B.sh
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2522389942.build/Objects-normal/x86_64/CheckIncludeFiles.o CheckIncludeFiles.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2522389942.build/DerivedSources/x86_64 -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2522389942.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2522389942.build/Objects-normal/x86_64/CheckIncludeFiles.d --serialize-diagnostics /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2522389942.build/Objects-normal/x86_64/CheckIncludeFiles.dia -c /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CheckIncludeFiles.c -o /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2522389942.build/Objects-normal/x86_64/CheckIncludeFiles.o
+
+Ld Debug/cmTryCompileExec2522389942 normal x86_64
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.8
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -F/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -filelist /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2522389942.build/Objects-normal/x86_64/cmTryCompileExec2522389942.LinkFileList -mmacosx-version-min=10.8 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2522389942.build/Objects-normal/x86_64/cmTryCompileExec2522389942_dependency_info.dat -o /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2522389942
+
+PhaseScriptExecution CMake\ PostBuild\ Rules CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2522389942.build/Script-C9D05F84897649A9AB1A713B.sh
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    /bin/sh -c /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2522389942.build/Script-C9D05F84897649A9AB1A713B.sh
+echo "Depend check for xcode"
+Depend check for xcode
+cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp && make -C /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp -f /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.cmTryCompileExec2522389942.Debug
+make[1]: Nothing to be done for `PostBuild.cmTryCompileExec2522389942.Debug'.
+
+** BUILD SUCCEEDED **
+
+
+
+Determining if files sys/param.h exist passed with the following output:
+Change Dir: /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/local/Cellar/cmake/2.8.9/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec3205710641 -configuration Debug
+=== BUILD TARGET cmTryCompileExec3205710641 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3205710641.build
+write-file /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3205710641.build/Script-C15677F377DC436FAEF7A626.sh
+chmod 0755 /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3205710641.build/Script-C15677F377DC436FAEF7A626.sh
+/bin/mkdir -p /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3205710641.build/Objects-normal/x86_64
+write-file /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3205710641.build/Objects-normal/x86_64/cmTryCompileExec3205710641.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3205710641.build/Objects-normal/x86_64/CheckIncludeFiles.o CheckIncludeFiles.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3205710641.build/DerivedSources/x86_64 -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3205710641.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3205710641.build/Objects-normal/x86_64/CheckIncludeFiles.d --serialize-diagnostics /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3205710641.build/Objects-normal/x86_64/CheckIncludeFiles.dia -c /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CheckIncludeFiles.c -o /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3205710641.build/Objects-normal/x86_64/CheckIncludeFiles.o
+
+Ld Debug/cmTryCompileExec3205710641 normal x86_64
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.8
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -F/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -filelist /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3205710641.build/Objects-normal/x86_64/cmTryCompileExec3205710641.LinkFileList -mmacosx-version-min=10.8 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3205710641.build/Objects-normal/x86_64/cmTryCompileExec3205710641_dependency_info.dat -o /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3205710641
+
+PhaseScriptExecution CMake\ PostBuild\ Rules CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3205710641.build/Script-C15677F377DC436FAEF7A626.sh
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    /bin/sh -c /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3205710641.build/Script-C15677F377DC436FAEF7A626.sh
+echo "Depend check for xcode"
+Depend check for xcode
+cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp && make -C /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp -f /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.cmTryCompileExec3205710641.Debug
+make[1]: Nothing to be done for `PostBuild.cmTryCompileExec3205710641.Debug'.
+
+** BUILD SUCCEEDED **
+
+
+
+Determining if files sys/ioctl.h exist passed with the following output:
+Change Dir: /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/local/Cellar/cmake/2.8.9/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec2516666277 -configuration Debug
+=== BUILD TARGET cmTryCompileExec2516666277 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2516666277.build
+write-file /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2516666277.build/Script-DEC36D6BB70049C0A3D927BD.sh
+chmod 0755 /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2516666277.build/Script-DEC36D6BB70049C0A3D927BD.sh
+/bin/mkdir -p /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2516666277.build/Objects-normal/x86_64
+write-file /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2516666277.build/Objects-normal/x86_64/cmTryCompileExec2516666277.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2516666277.build/Objects-normal/x86_64/CheckIncludeFiles.o CheckIncludeFiles.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2516666277.build/DerivedSources/x86_64 -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2516666277.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2516666277.build/Objects-normal/x86_64/CheckIncludeFiles.d --serialize-diagnostics /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2516666277.build/Objects-normal/x86_64/CheckIncludeFiles.dia -c /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CheckIncludeFiles.c -o /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2516666277.build/Objects-normal/x86_64/CheckIncludeFiles.o
+
+Ld Debug/cmTryCompileExec2516666277 normal x86_64
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.8
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -F/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -filelist /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2516666277.build/Objects-normal/x86_64/cmTryCompileExec2516666277.LinkFileList -mmacosx-version-min=10.8 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2516666277.build/Objects-normal/x86_64/cmTryCompileExec2516666277_dependency_info.dat -o /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2516666277
+
+PhaseScriptExecution CMake\ PostBuild\ Rules CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2516666277.build/Script-DEC36D6BB70049C0A3D927BD.sh
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    /bin/sh -c /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2516666277.build/Script-DEC36D6BB70049C0A3D927BD.sh
+echo "Depend check for xcode"
+Depend check for xcode
+cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp && make -C /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp -f /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.cmTryCompileExec2516666277.Debug
+make[1]: Nothing to be done for `PostBuild.cmTryCompileExec2516666277.Debug'.
+
+** BUILD SUCCEEDED **
+
+
+
+Determining if files fcntl.h exist passed with the following output:
+Change Dir: /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/local/Cellar/cmake/2.8.9/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec3887776423 -configuration Debug
+=== BUILD TARGET cmTryCompileExec3887776423 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3887776423.build/Objects-normal/x86_64
+write-file /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3887776423.build/Objects-normal/x86_64/cmTryCompileExec3887776423.LinkFileList
+write-file /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3887776423.build/Script-08FAAF4D2ACB44C6BD7DAE08.sh
+chmod 0755 /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3887776423.build/Script-08FAAF4D2ACB44C6BD7DAE08.sh
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3887776423.build/Objects-normal/x86_64/CheckIncludeFiles.o CheckIncludeFiles.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3887776423.build/DerivedSources/x86_64 -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3887776423.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3887776423.build/Objects-normal/x86_64/CheckIncludeFiles.d --serialize-diagnostics /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3887776423.build/Objects-normal/x86_64/CheckIncludeFiles.dia -c /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CheckIncludeFiles.c -o /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3887776423.build/Objects-normal/x86_64/CheckIncludeFiles.o
+
+Ld Debug/cmTryCompileExec3887776423 normal x86_64
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.8
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -F/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -filelist /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3887776423.build/Objects-normal/x86_64/cmTryCompileExec3887776423.LinkFileList -mmacosx-version-min=10.8 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3887776423.build/Objects-normal/x86_64/cmTryCompileExec3887776423_dependency_info.dat -o /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3887776423
+
+PhaseScriptExecution CMake\ PostBuild\ Rules CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3887776423.build/Script-08FAAF4D2ACB44C6BD7DAE08.sh
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    /bin/sh -c /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3887776423.build/Script-08FAAF4D2ACB44C6BD7DAE08.sh
+echo "Depend check for xcode"
+Depend check for xcode
+cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp && make -C /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp -f /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.cmTryCompileExec3887776423.Debug
+make[1]: Nothing to be done for `PostBuild.cmTryCompileExec3887776423.Debug'.
+
+** BUILD SUCCEEDED **
+
+
+
+Determining if files errno.h exist passed with the following output:
+Change Dir: /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/local/Cellar/cmake/2.8.9/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec2585634763 -configuration Debug
+=== BUILD TARGET cmTryCompileExec2585634763 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2585634763.build
+write-file /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2585634763.build/Script-5E06CD2B4B004FA5A6E6ADD6.sh
+chmod 0755 /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2585634763.build/Script-5E06CD2B4B004FA5A6E6ADD6.sh
+/bin/mkdir -p /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2585634763.build/Objects-normal/x86_64
+write-file /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2585634763.build/Objects-normal/x86_64/cmTryCompileExec2585634763.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2585634763.build/Objects-normal/x86_64/CheckIncludeFiles.o CheckIncludeFiles.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2585634763.build/DerivedSources/x86_64 -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2585634763.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2585634763.build/Objects-normal/x86_64/CheckIncludeFiles.d --serialize-diagnostics /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2585634763.build/Objects-normal/x86_64/CheckIncludeFiles.dia -c /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CheckIncludeFiles.c -o /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2585634763.build/Objects-normal/x86_64/CheckIncludeFiles.o
+
+Ld Debug/cmTryCompileExec2585634763 normal x86_64
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.8
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -F/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -filelist /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2585634763.build/Objects-normal/x86_64/cmTryCompileExec2585634763.LinkFileList -mmacosx-version-min=10.8 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2585634763.build/Objects-normal/x86_64/cmTryCompileExec2585634763_dependency_info.dat -o /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2585634763
+
+PhaseScriptExecution CMake\ PostBuild\ Rules CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2585634763.build/Script-5E06CD2B4B004FA5A6E6ADD6.sh
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    /bin/sh -c /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2585634763.build/Script-5E06CD2B4B004FA5A6E6ADD6.sh
+echo "Depend check for xcode"
+Depend check for xcode
+cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp && make -C /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp -f /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.cmTryCompileExec2585634763.Debug
+make[1]: Nothing to be done for `PostBuild.cmTryCompileExec2585634763.Debug'.
+
+** BUILD SUCCEEDED **
+
+
+
+Determining if the function gettimeofday exists passed with the following output:
+Change Dir: /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/local/Cellar/cmake/2.8.9/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec3709475473 -configuration Debug
+=== BUILD TARGET cmTryCompileExec3709475473 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3709475473.build/Objects-normal/x86_64
+write-file /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3709475473.build/Objects-normal/x86_64/cmTryCompileExec3709475473.LinkFileList
+write-file /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3709475473.build/Script-E8CDB7707C7442D488339CB1.sh
+chmod 0755 /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3709475473.build/Script-E8CDB7707C7442D488339CB1.sh
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3709475473.build/Objects-normal/x86_64/CheckFunctionExists.o /usr/local/Cellar/cmake/2.8.9/share/cmake/Modules/CheckFunctionExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3709475473.build/DerivedSources/x86_64 -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3709475473.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -DCHECK_FUNCTION_EXISTS=gettimeofday -MMD -MT dependencies -MF /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3709475473.build/Objects-normal/x86_64/CheckFunctionExists.d --serialize-diagnostics /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3709475473.build/Objects-normal/x86_64/CheckFunctionExists.dia -c /usr/local/Cellar/cmake/2.8.9/share/cmake/Modules/CheckFunctionExists.c -o /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3709475473.build/Objects-normal/x86_64/CheckFunctionExists.o
+
+Ld Debug/cmTryCompileExec3709475473 normal x86_64
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.8
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -F/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -filelist /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3709475473.build/Objects-normal/x86_64/cmTryCompileExec3709475473.LinkFileList -mmacosx-version-min=10.8 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -lm -Xlinker -dependency_info -Xlinker /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3709475473.build/Objects-normal/x86_64/cmTryCompileExec3709475473_dependency_info.dat -o /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3709475473
+
+PhaseScriptExecution CMake\ PostBuild\ Rules CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3709475473.build/Script-E8CDB7707C7442D488339CB1.sh
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    /bin/sh -c /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3709475473.build/Script-E8CDB7707C7442D488339CB1.sh
+echo "Depend check for xcode"
+Depend check for xcode
+cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp && make -C /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp -f /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.cmTryCompileExec3709475473.Debug
+make[1]: Nothing to be done for `PostBuild.cmTryCompileExec3709475473.Debug'.
+
+** BUILD SUCCEEDED **
+
+
+
+Determining if the function vfprintf exists passed with the following output:
+Change Dir: /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/local/Cellar/cmake/2.8.9/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec3721542766 -configuration Debug
+=== BUILD TARGET cmTryCompileExec3721542766 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3721542766.build/Objects-normal/x86_64
+write-file /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3721542766.build/Objects-normal/x86_64/cmTryCompileExec3721542766.LinkFileList
+write-file /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3721542766.build/Script-212CFA151BF148FDAF46884C.sh
+chmod 0755 /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3721542766.build/Script-212CFA151BF148FDAF46884C.sh
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3721542766.build/Objects-normal/x86_64/CheckFunctionExists.o /usr/local/Cellar/cmake/2.8.9/share/cmake/Modules/CheckFunctionExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3721542766.build/DerivedSources/x86_64 -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3721542766.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -DCHECK_FUNCTION_EXISTS=vfprintf -MMD -MT dependencies -MF /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3721542766.build/Objects-normal/x86_64/CheckFunctionExists.d --serialize-diagnostics /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3721542766.build/Objects-normal/x86_64/CheckFunctionExists.dia -c /usr/local/Cellar/cmake/2.8.9/share/cmake/Modules/CheckFunctionExists.c -o /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3721542766.build/Objects-normal/x86_64/CheckFunctionExists.o
+/usr/local/Cellar/cmake/2.8.9/share/cmake/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'vfprintf' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+In file included from <built-in>:171:
+<command line>:2:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS vfprintf
+                              ^
+/usr/local/Cellar/cmake/2.8.9/share/cmake/Modules/CheckFunctionExists.c:3:6: note: 'vfprintf' is a builtin with type 'int ()'
+In file included from <built-in>:171:
+<command line>:2:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS vfprintf
+                              ^
+1 warning generated.
+
+Ld Debug/cmTryCompileExec3721542766 normal x86_64
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.8
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -F/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -filelist /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3721542766.build/Objects-normal/x86_64/cmTryCompileExec3721542766.LinkFileList -mmacosx-version-min=10.8 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -lm -Xlinker -dependency_info -Xlinker /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3721542766.build/Objects-normal/x86_64/cmTryCompileExec3721542766_dependency_info.dat -o /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3721542766
+
+PhaseScriptExecution CMake\ PostBuild\ Rules CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3721542766.build/Script-212CFA151BF148FDAF46884C.sh
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    /bin/sh -c /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3721542766.build/Script-212CFA151BF148FDAF46884C.sh
+echo "Depend check for xcode"
+Depend check for xcode
+cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp && make -C /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp -f /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.cmTryCompileExec3721542766.Debug
+make[1]: Nothing to be done for `PostBuild.cmTryCompileExec3721542766.Debug'.
+
+** BUILD SUCCEEDED **
+
+
+
+Determining if files stdint.h exist passed with the following output:
+Change Dir: /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/local/Cellar/cmake/2.8.9/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec2016316573 -configuration Debug
+=== BUILD TARGET cmTryCompileExec2016316573 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2016316573.build/Objects-normal/x86_64
+write-file /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2016316573.build/Objects-normal/x86_64/cmTryCompileExec2016316573.LinkFileList
+write-file /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2016316573.build/Script-AC412888410F4F80A0CA5B7C.sh
+chmod 0755 /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2016316573.build/Script-AC412888410F4F80A0CA5B7C.sh
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2016316573.build/Objects-normal/x86_64/CheckIncludeFiles.o CheckIncludeFiles.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2016316573.build/DerivedSources/x86_64 -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2016316573.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2016316573.build/Objects-normal/x86_64/CheckIncludeFiles.d --serialize-diagnostics /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2016316573.build/Objects-normal/x86_64/CheckIncludeFiles.dia -c /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CheckIncludeFiles.c -o /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2016316573.build/Objects-normal/x86_64/CheckIncludeFiles.o
+
+Ld Debug/cmTryCompileExec2016316573 normal x86_64
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.8
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -F/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -filelist /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2016316573.build/Objects-normal/x86_64/cmTryCompileExec2016316573.LinkFileList -mmacosx-version-min=10.8 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2016316573.build/Objects-normal/x86_64/cmTryCompileExec2016316573_dependency_info.dat -o /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2016316573
+
+PhaseScriptExecution CMake\ PostBuild\ Rules CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2016316573.build/Script-AC412888410F4F80A0CA5B7C.sh
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    /bin/sh -c /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2016316573.build/Script-AC412888410F4F80A0CA5B7C.sh
+echo "Depend check for xcode"
+Depend check for xcode
+cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp && make -C /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp -f /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.cmTryCompileExec2016316573.Debug
+make[1]: Nothing to be done for `PostBuild.cmTryCompileExec2016316573.Debug'.
+
+** BUILD SUCCEEDED **
+
+
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/local/Cellar/cmake/2.8.9/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec3816630258 -configuration Debug
+=== BUILD TARGET cmTryCompileExec3816630258 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3816630258.build
+write-file /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3816630258.build/Script-956C05A2A8134CEA88DC8F16.sh
+chmod 0755 /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3816630258.build/Script-956C05A2A8134CEA88DC8F16.sh
+/bin/mkdir -p /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3816630258.build/Objects-normal/x86_64
+write-file /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3816630258.build/Objects-normal/x86_64/cmTryCompileExec3816630258.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3816630258.build/Objects-normal/x86_64/CheckIncludeFiles.o CheckIncludeFiles.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3816630258.build/DerivedSources/x86_64 -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3816630258.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3816630258.build/Objects-normal/x86_64/CheckIncludeFiles.d --serialize-diagnostics /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3816630258.build/Objects-normal/x86_64/CheckIncludeFiles.dia -c /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CheckIncludeFiles.c -o /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3816630258.build/Objects-normal/x86_64/CheckIncludeFiles.o
+
+Ld Debug/cmTryCompileExec3816630258 normal x86_64
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.8
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -F/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -filelist /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3816630258.build/Objects-normal/x86_64/cmTryCompileExec3816630258.LinkFileList -mmacosx-version-min=10.8 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3816630258.build/Objects-normal/x86_64/cmTryCompileExec3816630258_dependency_info.dat -o /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3816630258
+
+PhaseScriptExecution CMake\ PostBuild\ Rules CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3816630258.build/Script-956C05A2A8134CEA88DC8F16.sh
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    /bin/sh -c /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3816630258.build/Script-956C05A2A8134CEA88DC8F16.sh
+echo "Depend check for xcode"
+Depend check for xcode
+cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp && make -C /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp -f /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.cmTryCompileExec3816630258.Debug
+make[1]: Nothing to be done for `PostBuild.cmTryCompileExec3816630258.Debug'.
+
+** BUILD SUCCEEDED **
+
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/local/Cellar/cmake/2.8.9/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec1895517963 -configuration Debug
+=== BUILD TARGET cmTryCompileExec1895517963 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1895517963.build/Objects-normal/x86_64
+write-file /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1895517963.build/Objects-normal/x86_64/cmTryCompileExec1895517963.LinkFileList
+write-file /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1895517963.build/Script-E6E7B8499FF14AD1BFCA2488.sh
+chmod 0755 /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1895517963.build/Script-E6E7B8499FF14AD1BFCA2488.sh
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1895517963.build/Objects-normal/x86_64/CheckIncludeFiles.o CheckIncludeFiles.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1895517963.build/DerivedSources/x86_64 -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1895517963.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1895517963.build/Objects-normal/x86_64/CheckIncludeFiles.d --serialize-diagnostics /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1895517963.build/Objects-normal/x86_64/CheckIncludeFiles.dia -c /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CheckIncludeFiles.c -o /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1895517963.build/Objects-normal/x86_64/CheckIncludeFiles.o
+
+Ld Debug/cmTryCompileExec1895517963 normal x86_64
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.8
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -F/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -filelist /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1895517963.build/Objects-normal/x86_64/cmTryCompileExec1895517963.LinkFileList -mmacosx-version-min=10.8 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1895517963.build/Objects-normal/x86_64/cmTryCompileExec1895517963_dependency_info.dat -o /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1895517963
+
+PhaseScriptExecution CMake\ PostBuild\ Rules CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1895517963.build/Script-E6E7B8499FF14AD1BFCA2488.sh
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    /bin/sh -c /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec1895517963.build/Script-E6E7B8499FF14AD1BFCA2488.sh
+echo "Depend check for xcode"
+Depend check for xcode
+cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp && make -C /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp -f /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.cmTryCompileExec1895517963.Debug
+make[1]: Nothing to be done for `PostBuild.cmTryCompileExec1895517963.Debug'.
+
+** BUILD SUCCEEDED **
+
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/local/Cellar/cmake/2.8.9/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec3501143376 -configuration Debug
+=== BUILD TARGET cmTryCompileExec3501143376 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3501143376.build
+write-file /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3501143376.build/Script-53BC299516AE4124B71124C4.sh
+chmod 0755 /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3501143376.build/Script-53BC299516AE4124B71124C4.sh
+/bin/mkdir -p /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3501143376.build/Objects-normal/x86_64
+write-file /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3501143376.build/Objects-normal/x86_64/cmTryCompileExec3501143376.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3501143376.build/Objects-normal/x86_64/CheckSymbolExists.o CheckSymbolExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3501143376.build/DerivedSources/x86_64 -I/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3501143376.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3501143376.build/Objects-normal/x86_64/CheckSymbolExists.d --serialize-diagnostics /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3501143376.build/Objects-normal/x86_64/CheckSymbolExists.dia -c /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CheckSymbolExists.c -o /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3501143376.build/Objects-normal/x86_64/CheckSymbolExists.o
+
+Ld Debug/cmTryCompileExec3501143376 normal x86_64
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.8
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -F/Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug -filelist /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3501143376.build/Objects-normal/x86_64/cmTryCompileExec3501143376.LinkFileList -mmacosx-version-min=10.8 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3501143376.build/Objects-normal/x86_64/cmTryCompileExec3501143376_dependency_info.dat -o /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3501143376
+
+PhaseScriptExecution CMake\ PostBuild\ Rules CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3501143376.build/Script-53BC299516AE4124B71124C4.sh
+    cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp
+    /bin/sh -c /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3501143376.build/Script-53BC299516AE4124B71124C4.sh
+echo "Depend check for xcode"
+Depend check for xcode
+cd /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp && make -C /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp -f /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.cmTryCompileExec3501143376.Debug
+make[1]: Nothing to be done for `PostBuild.cmTryCompileExec3501143376.Debug'.
+
+** BUILD SUCCEEDED **
+
+
+File /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

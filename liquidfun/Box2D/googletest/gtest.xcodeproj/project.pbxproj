@@ -7,27 +7,39 @@
        objects = {
 
 /* Begin PBXAggregateTarget section */
-              DC8B7644B8264DCBBAA2803E /* ALL_BUILD */ = {
+              1A72F6F3D7FD4227B934793A /* ALL_BUILD */ = {
                      isa = PBXAggregateTarget;
-                     buildConfigurationList = 8D94BBF10AC74A96AB575590 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildConfigurationList = 79259BE23B394719B6546D39 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
                      buildPhases = (
-                            AA5D553E577B49DFA294C99B /* CMake Rules */,
+                            0DDC9152E2674BCDAFCEA49A /* CMake Rules */,
                      );
                      dependencies = (
-                            DCB386A68B1C4736A55CE98F /* PBXTargetDependency */,
-                            A32A5CC135D140C097C5AA7E /* PBXTargetDependency */,
+                            F270D35B8D65413DA138F00D /* PBXTargetDependency */,
+                            D6E6A6F5B0234CA5AFCE9506 /* PBXTargetDependency */,
+                            BDD1799AA4554BF39CAE0452 /* PBXTargetDependency */,
                      );
                      name = ALL_BUILD;
                      productName = ALL_BUILD;
               };
-              3D84C33765744DC4932FB30E /* install */ = {
+              62B7C81285784C67AB28F4EC /* ZERO_CHECK */ = {
                      isa = PBXAggregateTarget;
-                     buildConfigurationList = 3EC62BB558564D98B3FFF097 /* Build configuration list for PBXAggregateTarget "install" */;
+                     buildConfigurationList = 902E98738DF2445A86F3CE79 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
                      buildPhases = (
-                            1EFC07E94982458E878583CE /* CMake PostBuild Rules */,
+                            E1575A5171E74BCA9CE36124 /* CMake Rules */,
                      );
                      dependencies = (
-                            BC7DB838947645669F4E2E2E /* PBXTargetDependency */,
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+              4651C812ACDF4D11879D7722 /* install */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 3180FE68BBF44BB8BBC5F08F /* Build configuration list for PBXAggregateTarget "install" */;
+                     buildPhases = (
+                            0063383AB1A9425AAB9DB23A /* CMake PostBuild Rules */,
+                     );
+                     dependencies = (
+                            262A6893FF064025A80E346B /* PBXTargetDependency */,
                      );
                      name = install;
                      productName = install;
@@ -35,38 +47,38 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-EE609CF3E1C74F858B8E201F /* ../../../googletest/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 8255C96C72C34FCB9CFF3772 /* ../../../googletest/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
-918DCCF1479F4FBC85306F85 /* ../../../googletest/src/gtest-all.cc */ = {isa = PBXBuildFile; fileRef = B9604C20AE8F4F20BB9021E9 /* ../../../googletest/src/gtest-all.cc */; settings = { COMPILER_FLAGS = ""; }; };
-85F67961F8B04478BBEE8832 /* ../../../googletest/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 8255C96C72C34FCB9CFF3772 /* ../../../googletest/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
-2336A42EACF145CEA10C349F /* ../../../googletest/src/gtest_main.cc */ = {isa = PBXBuildFile; fileRef = 73AAC8D8D05F41BC8B1ADEAF /* ../../../googletest/src/gtest_main.cc */; settings = { COMPILER_FLAGS = ""; }; };
+5505FDBBE90B4C2BA71BC2A0 /* /Users/alex/Coding/geosim/googletest/src/gtest-all.cc */ = {isa = PBXBuildFile; fileRef = 9F2FF7F4E50F4B9394E36B4D /* /Users/alex/Coding/geosim/googletest/src/gtest-all.cc */; settings = { COMPILER_FLAGS = "   -DGTEST_HAS_PTHREAD=1  "; }; };
+AD0A76BD56EE46C5913023D8 /* /Users/alex/Coding/geosim/googletest/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 41CBECB9B7A24F4D9EFC6C99 /* /Users/alex/Coding/geosim/googletest/CMakeLists.txt */; settings = { COMPILER_FLAGS = "   -DGTEST_HAS_PTHREAD=1  "; }; };
+882499786E8147198B305137 /* /Users/alex/Coding/geosim/googletest/src/gtest_main.cc */ = {isa = PBXBuildFile; fileRef = 0C6810328A5A446C8C1A6911 /* /Users/alex/Coding/geosim/googletest/src/gtest_main.cc */; settings = { COMPILER_FLAGS = "   -DGTEST_HAS_PTHREAD=1  "; }; };
+C0B6A090B1C24EFC9D1AAD86 /* /Users/alex/Coding/geosim/googletest/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 41CBECB9B7A24F4D9EFC6C99 /* /Users/alex/Coding/geosim/googletest/CMakeLists.txt */; settings = { COMPILER_FLAGS = "   -DGTEST_HAS_PTHREAD=1  "; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-              B140E3787EF145EA81833B90 /*  */ = {
+              CBC32DFE89874535AA5246F2 /*  */ = {
                      isa = PBXBuildStyle;
               };
-              876B8AA93BBC4413B884E331 /* Debug */ = {
+              B9413475E97C4B3589C97817 /* Debug */ = {
                      isa = PBXBuildStyle;
                      buildSettings = {
                             COPY_PHASE_STRIP = NO;
                      };
                      name = Debug;
               };
-              C21C27C3BA9545F5A7DE6146 /* Release */ = {
+              C06A13BC55E34882B9E6603E /* Release */ = {
                      isa = PBXBuildStyle;
                      buildSettings = {
                             COPY_PHASE_STRIP = NO;
                      };
                      name = Release;
               };
-              864EFB52C4934142BDDC9736 /* MinSizeRel */ = {
+              8626F0E991EC4C85A3EB6587 /* MinSizeRel */ = {
                      isa = PBXBuildStyle;
                      buildSettings = {
                             COPY_PHASE_STRIP = NO;
                      };
                      name = MinSizeRel;
               };
-              2D50551450B54DD782FF38FE /* RelWithDebInfo */ = {
+              5DE80597C93745F6BD4EABCF /* RelWithDebInfo */ = {
                      isa = PBXBuildStyle;
                      buildSettings = {
                             COPY_PHASE_STRIP = NO;
@@ -76,126 +88,143 @@ EE609CF3E1C74F858B8E201F /* ../../../googletest/CMakeLists.txt */ = {isa = PBXBu
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-              E39661B690DA44CA809DD62E /* PBXContainerItemProxy */ = {
+              09F834D5C2D34964BDC2D0B7 /* PBXContainerItemProxy */ = {
                      isa = PBXContainerItemProxy;
-                     containerPortal = 510D469168FE460C87A22C76 /* Project object */;
+                     containerPortal = 94B69B3A07054DB4A84C94BD /* Project object */;
                      proxyType = 1;
-                     remoteGlobalIDString = E9546561C783416FA9DF40ED;
+                     remoteGlobalIDString = 62B7C81285784C67AB28F4EC;
+                     remoteInfo = ZERO_CHECK;
+              };
+              9A005FD4199744A9AE87228F /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 94B69B3A07054DB4A84C94BD /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = B66D41643AEF4255AEC140BB;
                      remoteInfo = gtest;
               };
-              18CECC357C114C8E8FF75C06 /* PBXContainerItemProxy */ = {
+              2538C710F56A4240B0970CC5 /* PBXContainerItemProxy */ = {
                      isa = PBXContainerItemProxy;
-                     containerPortal = 510D469168FE460C87A22C76 /* Project object */;
+                     containerPortal = 94B69B3A07054DB4A84C94BD /* Project object */;
                      proxyType = 1;
-                     remoteGlobalIDString = FED1F8BEFA814BCE9CB2BDE8;
+                     remoteGlobalIDString = 1101F461472F40A8A0A18E66;
                      remoteInfo = gtest_main;
               };
-              B23AB472856945B58BAD33F9 /* PBXContainerItemProxy */ = {
+              DFA000DAF2A346699F6E5E37 /* PBXContainerItemProxy */ = {
                      isa = PBXContainerItemProxy;
-                     containerPortal = 510D469168FE460C87A22C76 /* Project object */;
+                     containerPortal = 94B69B3A07054DB4A84C94BD /* Project object */;
                      proxyType = 1;
-                     remoteGlobalIDString = E9546561C783416FA9DF40ED;
-                     remoteInfo = gtest;
-              };
-              B894A3F3501F43ED9CED7F95 /* PBXContainerItemProxy */ = {
-                     isa = PBXContainerItemProxy;
-                     containerPortal = 510D469168FE460C87A22C76 /* Project object */;
-                     proxyType = 1;
-                     remoteGlobalIDString = DC8B7644B8264DCBBAA2803E;
+                     remoteGlobalIDString = 1A72F6F3D7FD4227B934793A;
                      remoteInfo = ALL_BUILD;
               };
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-8255C96C72C34FCB9CFF3772 /* ../../../googletest/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
-B9604C20AE8F4F20BB9021E9 /* ../../../googletest/src/gtest-all.cc */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "gtest-all.cc"; path = "src/gtest-all.cc"; sourceTree = SOURCE_ROOT; };
-26FC90F0DEE042D7924BAFAE /* gtest */ = {isa = PBXFileReference; explicitFileType = "archive.ar"; path = "libgtest.a"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
-73AAC8D8D05F41BC8B1ADEAF /* ../../../googletest/src/gtest_main.cc */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "gtest_main.cc"; path = "src/gtest_main.cc"; sourceTree = SOURCE_ROOT; };
-3694A99E100247F4800512DC /* gtest_main */ = {isa = PBXFileReference; explicitFileType = "archive.ar"; path = "libgtest_main.a"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+41CBECB9B7A24F4D9EFC6C99 /* /Users/alex/Coding/geosim/googletest/CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text"; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+9F2FF7F4E50F4B9394E36B4D /* /Users/alex/Coding/geosim/googletest/src/gtest-all.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "gtest-all.cc"; path = "src/gtest-all.cc"; sourceTree = SOURCE_ROOT; };
+AA35934358C2453FA3DE1948 /* gtest */ = {isa = PBXFileReference; explicitFileType = "archive.ar"; path = "libgtest.a"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+0C6810328A5A446C8C1A6911 /* /Users/alex/Coding/geosim/googletest/src/gtest_main.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "gtest_main.cc"; path = "src/gtest_main.cc"; sourceTree = SOURCE_ROOT; };
+EB3BD99919924791A7C7B0AB /* gtest_main */ = {isa = PBXFileReference; explicitFileType = "archive.ar"; path = "libgtest_main.a"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-              7F3C863923CD40F9B63806CD  = {
+              8A9DC775F7F34679A75CE2F4  = {
                      isa = PBXGroup;
                      children = (
-                            705D803935F24D59A246BD66 /* Sources */,
-                            43B13E87FF30418880BDEC15 /* Resources */,
-                            A6DFB9B03CC740639BB52C10 /* Products */,
+                            E3C9556D3D1C4A6BBC45646B /* Sources */,
+                            C32EA5C6C40D4BA6AABF1BA0 /* Resources */,
+                            5DEDA4D945374089BFD2F652 /* Products */,
                      );
                      sourceTree = "<group>";
               };
-              705D803935F24D59A246BD66 /* Sources */ = {
+              E3C9556D3D1C4A6BBC45646B /* Sources */ = {
                      isa = PBXGroup;
                      children = (
-                            8D81D400521F47D0B7B54B7D /* ALL_BUILD */,
-                            06793300845D49B387E38941 /* gtest */,
-                            41D95A23862648D3A2CD0D96 /* gtest_main */,
+                            1E1E136B49684586AA83C61E /* ALL_BUILD */,
+                            15DCA20419434158AD702A3B /* ZERO_CHECK */,
+                            AEAF42B991B548569C8F7520 /* gtest */,
+                            02E21AB204DE4A8598AB105F /* gtest_main */,
                      );
                      name = Sources;
                      sourceTree = "<group>";
               };
-              43B13E87FF30418880BDEC15 /* Resources */ = {
+              C32EA5C6C40D4BA6AABF1BA0 /* Resources */ = {
                      isa = PBXGroup;
                      children = (
                      );
                      name = Resources;
                      sourceTree = "<group>";
               };
-              8D81D400521F47D0B7B54B7D /* ALL_BUILD */ = {
+              1E1E136B49684586AA83C61E /* ALL_BUILD */ = {
                      isa = PBXGroup;
                      children = (
-                            C6980AB489E540E697E6633A /* CMake Rules */,
-                            8255C96C72C34FCB9CFF3772 /* ../../../googletest/CMakeLists.txt */,
+                            B493B05FAF314C55BA28A223 /* CMake Rules */,
+                            41CBECB9B7A24F4D9EFC6C99 /* /Users/alex/Coding/geosim/googletest/CMakeLists.txt */,
                      );
                      name = ALL_BUILD;
                      sourceTree = "<group>";
               };
-              C6980AB489E540E697E6633A /* CMake Rules */ = {
+              B493B05FAF314C55BA28A223 /* CMake Rules */ = {
                      isa = PBXGroup;
                      children = (
                      );
                      name = "CMake Rules";
                      sourceTree = "<group>";
               };
-              06793300845D49B387E38941 /* gtest */ = {
+              15DCA20419434158AD702A3B /* ZERO_CHECK */ = {
                      isa = PBXGroup;
                      children = (
-                            87DA010ABDFB457FBB321294 /* Source Files */,
-                            8255C96C72C34FCB9CFF3772 /* ../../../googletest/CMakeLists.txt */,
+                            DF5C29F52BD440D7A0B1F1BE /* CMake Rules */,
+                            41CBECB9B7A24F4D9EFC6C99 /* /Users/alex/Coding/geosim/googletest/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              DF5C29F52BD440D7A0B1F1BE /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              AEAF42B991B548569C8F7520 /* gtest */ = {
+                     isa = PBXGroup;
+                     children = (
+                            04BEA2832CBB4C0D88B9EB3C /* Source Files */,
+                            41CBECB9B7A24F4D9EFC6C99 /* /Users/alex/Coding/geosim/googletest/CMakeLists.txt */,
                      );
                      name = gtest;
                      sourceTree = "<group>";
               };
-              87DA010ABDFB457FBB321294 /* Source Files */ = {
+              04BEA2832CBB4C0D88B9EB3C /* Source Files */ = {
                      isa = PBXGroup;
                      children = (
-                            B9604C20AE8F4F20BB9021E9 /* ../../../googletest/src/gtest-all.cc */,
+                            9F2FF7F4E50F4B9394E36B4D /* /Users/alex/Coding/geosim/googletest/src/gtest-all.cc */,
                      );
                      name = "Source Files";
                      sourceTree = "<group>";
               };
-              41D95A23862648D3A2CD0D96 /* gtest_main */ = {
+              02E21AB204DE4A8598AB105F /* gtest_main */ = {
                      isa = PBXGroup;
                      children = (
-                            C90BFD913A234AEDADDE2637 /* Source Files */,
-                            8255C96C72C34FCB9CFF3772 /* ../../../googletest/CMakeLists.txt */,
+                            74BEAAE204CB49D3A24F86EB /* Source Files */,
+                            41CBECB9B7A24F4D9EFC6C99 /* /Users/alex/Coding/geosim/googletest/CMakeLists.txt */,
                      );
                      name = gtest_main;
                      sourceTree = "<group>";
               };
-              C90BFD913A234AEDADDE2637 /* Source Files */ = {
+              74BEAAE204CB49D3A24F86EB /* Source Files */ = {
                      isa = PBXGroup;
                      children = (
-                            73AAC8D8D05F41BC8B1ADEAF /* ../../../googletest/src/gtest_main.cc */,
+                            0C6810328A5A446C8C1A6911 /* /Users/alex/Coding/geosim/googletest/src/gtest_main.cc */,
                      );
                      name = "Source Files";
                      sourceTree = "<group>";
               };
-              A6DFB9B03CC740639BB52C10 /* Products */ = {
+              5DEDA4D945374089BFD2F652 /* Products */ = {
                      isa = PBXGroup;
                      children = (
-                            26FC90F0DEE042D7924BAFAE /* gtest */,
-                            3694A99E100247F4800512DC /* gtest_main */,
+                            AA35934358C2453FA3DE1948 /* gtest */,
+                            EB3BD99919924791A7C7B0AB /* gtest_main */,
                      );
                      name = Products;
                      sourceTree = "<group>";
@@ -203,70 +232,75 @@ B9604C20AE8F4F20BB9021E9 /* ../../../googletest/src/gtest-all.cc */ = {isa = PBX
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-              E9546561C783416FA9DF40ED /* gtest */ = {
+              B66D41643AEF4255AEC140BB /* gtest */ = {
                      isa = PBXNativeTarget;
-                     buildConfigurationList = 753B1F1937A44567A7701ECB /* Build configuration list for PBXNativeTarget "gtest" */;
+                     buildConfigurationList = 8FD8EF138CFA443593544260 /* Build configuration list for PBXNativeTarget "gtest" */;
                      buildPhases = (
-                            7A849AB825FA45859CF9DBB7 /* Sources */,
+                            3448CEDC2CEF4A3092BBF950 /* Sources */,
+                            ABB49D748F2A4E89961B6E27 /* CMake PostBuild Rules */,
                      );
                      buildRules = (
                      );
                      dependencies = (
+                            F270D35B8D65413DA138F00D /* PBXTargetDependency */,
                      );
                      name = gtest;
                      productName = gtest;
-                     productReference = 26FC90F0DEE042D7924BAFAE /* gtest */;
+                     productReference = AA35934358C2453FA3DE1948 /* gtest */;
                      productType = "com.apple.product-type.library.static";
               };
-              FED1F8BEFA814BCE9CB2BDE8 /* gtest_main */ = {
+              1101F461472F40A8A0A18E66 /* gtest_main */ = {
                      isa = PBXNativeTarget;
-                     buildConfigurationList = 20D4A6A12BDF49429B899538 /* Build configuration list for PBXNativeTarget "gtest_main" */;
+                     buildConfigurationList = D844CF74FE624D7681B386F0 /* Build configuration list for PBXNativeTarget "gtest_main" */;
                      buildPhases = (
-                            B7318ECB85DA46CDB307A02A /* Sources */,
+                            EE85C6A2C9F144C68F76F1BD /* Sources */,
+                            611291E886B649C092236FF6 /* CMake PostBuild Rules */,
                      );
                      buildRules = (
                      );
                      dependencies = (
-                            1FCBABB1BEDD434496B5C80A /* PBXTargetDependency */,
+                            F270D35B8D65413DA138F00D /* PBXTargetDependency */,
+                            D6E6A6F5B0234CA5AFCE9506 /* PBXTargetDependency */,
                      );
                      name = gtest_main;
                      productName = gtest_main;
-                     productReference = 3694A99E100247F4800512DC /* gtest_main */;
+                     productReference = EB3BD99919924791A7C7B0AB /* gtest_main */;
                      productType = "com.apple.product-type.library.static";
               };
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-              510D469168FE460C87A22C76 /* Project object */ = {
+              94B69B3A07054DB4A84C94BD /* Project object */ = {
                      isa = PBXProject;
                      attributes = {
                             BuildIndependentTargetsInParallel = YES;
                      };
-                     buildConfigurationList = 9F14A6A51F6944C1B022BB9A /* Build configuration list for PBXProject  "gtest" */;
+                     buildConfigurationList = 3F2BE43A4E8E4438B1145350 /* Build configuration list for PBXProject  "gtest" */;
                      buildSettings = {
                      };
                      buildStyles = (
-                            876B8AA93BBC4413B884E331 /* Debug */,
-                            C21C27C3BA9545F5A7DE6146 /* Release */,
-                            864EFB52C4934142BDDC9736 /* MinSizeRel */,
-                            2D50551450B54DD782FF38FE /* RelWithDebInfo */,
+                            B9413475E97C4B3589C97817 /* Debug */,
+                            C06A13BC55E34882B9E6603E /* Release */,
+                            8626F0E991EC4C85A3EB6587 /* MinSizeRel */,
+                            5DE80597C93745F6BD4EABCF /* RelWithDebInfo */,
                      );
                      compatibilityVersion = "Xcode 3.2";
                      hasScannedForEncodings = 0;
-                     mainGroup = 7F3C863923CD40F9B63806CD;
-                     projectDirPath = ../../../googletest;
+                     mainGroup = 8A9DC775F7F34679A75CE2F4;
+                     projectDirPath = /Users/alex/Coding/geosim/googletest;
                      projectRoot = "";
                      targets = (
-                            DC8B7644B8264DCBBAA2803E /* ALL_BUILD */,
-                            E9546561C783416FA9DF40ED /* gtest */,
-                            FED1F8BEFA814BCE9CB2BDE8 /* gtest_main */,
-                            3D84C33765744DC4932FB30E /* install */,
+                            1A72F6F3D7FD4227B934793A /* ALL_BUILD */,
+                            62B7C81285784C67AB28F4EC /* ZERO_CHECK */,
+                            B66D41643AEF4255AEC140BB /* gtest */,
+                            1101F461472F40A8A0A18E66 /* gtest_main */,
+                            4651C812ACDF4D11879D7722 /* install */,
                      );
               };
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-              B7295092BD0B4176A63A0824 /*  */ = {
+              D612EA077FD14363B04D0DC6 /*  */ = {
                      isa = PBXShellScriptBuildPhase;
                      buildActionMask = 2147483647;
                      files = (
@@ -277,11 +311,11 @@ B9604C20AE8F4F20BB9021E9 /* ../../../googletest/src/gtest-all.cc */ = {isa = PBX
                      );
                      runOnlyForDeploymentPostprocessing = 0;
                      shellPath = /bin/sh;
-                     shellScript = "## shell script goes here
+                     shellScript = "# shell script goes here
 exit 0";
                      showEnvVarsInLog = 0;
               };
-              AA5D553E577B49DFA294C99B /* CMake Rules */ = {
+              0DDC9152E2674BCDAFCEA49A /* CMake Rules */ = {
                      isa = PBXShellScriptBuildPhase;
                      buildActionMask = 2147483647;
                      files = (
@@ -289,10 +323,10 @@ exit 0";
                      name = "CMake Rules";
                      runOnlyForDeploymentPostprocessing = 0;
                      shellPath = /bin/sh;
-                     shellScript = "#make -C . -f CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     shellScript = "make -C /Users/alex/Coding/geosim/liquidfun/Box2D/googletest -f /Users/alex/Coding/geosim/liquidfun/Box2D/googletest/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
                      showEnvVarsInLog = 0;
               };
-              D55F2C146AAC46F298F0FA27 /*  */ = {
+              7AE429BE95A1492696BBC1F1 /*  */ = {
                      isa = PBXShellScriptBuildPhase;
                      buildActionMask = 2147483647;
                      files = (
@@ -303,11 +337,22 @@ exit 0";
                      );
                      runOnlyForDeploymentPostprocessing = 0;
                      shellPath = /bin/sh;
-                     shellScript = "## shell script goes here
+                     shellScript = "# shell script goes here
 exit 0";
                      showEnvVarsInLog = 0;
               };
-              1EFC07E94982458E878583CE /* CMake PostBuild Rules */ = {
+              E1575A5171E74BCA9CE36124 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/alex/Coding/geosim/liquidfun/Box2D/googletest -f /Users/alex/Coding/geosim/liquidfun/Box2D/googletest/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              ABB49D748F2A4E89961B6E27 /* CMake PostBuild Rules */ = {
                      isa = PBXShellScriptBuildPhase;
                      buildActionMask = 2147483647;
                      files = (
@@ -315,186 +360,302 @@ exit 0";
                      name = "CMake PostBuild Rules";
                      runOnlyForDeploymentPostprocessing = 0;
                      shellPath = /bin/sh;
-                     shellScript = "#make -C . -f CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+                     shellScript = "make -C /Users/alex/Coding/geosim/liquidfun/Box2D/googletest -f /Users/alex/Coding/geosim/liquidfun/Box2D/googletest/CMakeScripts/gtest_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              611291E886B649C092236FF6 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/alex/Coding/geosim/liquidfun/Box2D/googletest -f /Users/alex/Coding/geosim/liquidfun/Box2D/googletest/CMakeScripts/gtest_main_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              AFEDE0071E8B4C8BBAD83BA2 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              0063383AB1A9425AAB9DB23A /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/alex/Coding/geosim/liquidfun/Box2D/googletest -f /Users/alex/Coding/geosim/liquidfun/Box2D/googletest/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
                      showEnvVarsInLog = 0;
               };
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-              7A849AB825FA45859CF9DBB7 /* Sources */ = {
+              3448CEDC2CEF4A3092BBF950 /* Sources */ = {
                      isa = PBXSourcesBuildPhase;
                      buildActionMask = 2147483647;
                      files = (
-                            918DCCF1479F4FBC85306F85 /* ../../../googletest/src/gtest-all.cc */,
+                            5505FDBBE90B4C2BA71BC2A0 /* /Users/alex/Coding/geosim/googletest/src/gtest-all.cc */,
                      );
                      runOnlyForDeploymentPostprocessing = 0;
               };
-              B7318ECB85DA46CDB307A02A /* Sources */ = {
+              EE85C6A2C9F144C68F76F1BD /* Sources */ = {
                      isa = PBXSourcesBuildPhase;
                      buildActionMask = 2147483647;
                      files = (
-                            2336A42EACF145CEA10C349F /* ../../../googletest/src/gtest_main.cc */,
+                            882499786E8147198B305137 /* /Users/alex/Coding/geosim/googletest/src/gtest_main.cc */,
                      );
                      runOnlyForDeploymentPostprocessing = 0;
               };
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-              DCB386A68B1C4736A55CE98F /* PBXTargetDependency */ = {
+              F270D35B8D65413DA138F00D /* PBXTargetDependency */ = {
                      isa = PBXTargetDependency;
-                     target = E9546561C783416FA9DF40ED /* gtest */;
-                     targetProxy = E39661B690DA44CA809DD62E /* PBXContainerItemProxy */;
+                     target = 62B7C81285784C67AB28F4EC /* ZERO_CHECK */;
+                     targetProxy = 09F834D5C2D34964BDC2D0B7 /* PBXContainerItemProxy */;
               };
-              A32A5CC135D140C097C5AA7E /* PBXTargetDependency */ = {
+              D6E6A6F5B0234CA5AFCE9506 /* PBXTargetDependency */ = {
                      isa = PBXTargetDependency;
-                     target = FED1F8BEFA814BCE9CB2BDE8 /* gtest_main */;
-                     targetProxy = 18CECC357C114C8E8FF75C06 /* PBXContainerItemProxy */;
+                     target = B66D41643AEF4255AEC140BB /* gtest */;
+                     targetProxy = 9A005FD4199744A9AE87228F /* PBXContainerItemProxy */;
               };
-              1FCBABB1BEDD434496B5C80A /* PBXTargetDependency */ = {
+              BDD1799AA4554BF39CAE0452 /* PBXTargetDependency */ = {
                      isa = PBXTargetDependency;
-                     target = E9546561C783416FA9DF40ED /* gtest */;
-                     targetProxy = B23AB472856945B58BAD33F9 /* PBXContainerItemProxy */;
+                     target = 1101F461472F40A8A0A18E66 /* gtest_main */;
+                     targetProxy = 2538C710F56A4240B0970CC5 /* PBXContainerItemProxy */;
               };
-              BC7DB838947645669F4E2E2E /* PBXTargetDependency */ = {
+              262A6893FF064025A80E346B /* PBXTargetDependency */ = {
                      isa = PBXTargetDependency;
-                     target = DC8B7644B8264DCBBAA2803E /* ALL_BUILD */;
-                     targetProxy = B894A3F3501F43ED9CED7F95 /* PBXContainerItemProxy */;
+                     target = 1A72F6F3D7FD4227B934793A /* ALL_BUILD */;
+                     targetProxy = DFA000DAF2A346699F6E5E37 /* PBXContainerItemProxy */;
               };
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-              8A97CBA139F04966B4D48CD9 /* Debug */ = {
+              C9A36D91D98641AF9628BD5F /* Debug */ = {
                      isa = XCBuildConfiguration;
                      buildSettings = {
                             ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
                             ONLY_ACTIVE_ARCH = YES;
-                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk";
-                            SYMROOT = ../googletest/build;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk";
+                            SYMROOT = /Users/alex/Coding/geosim/liquidfun/Box2D/googletest/build;
                      };
                      name = Debug;
               };
-              1055ECD9459746199C0EDD3B /* Release */ = {
+              FA40FD5A5E2B4181A1F1D581 /* Release */ = {
                      isa = XCBuildConfiguration;
                      buildSettings = {
                             ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
                             ONLY_ACTIVE_ARCH = YES;
-                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk";
-                            SYMROOT = ../googletest/build;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk";
+                            SYMROOT = /Users/alex/Coding/geosim/liquidfun/Box2D/googletest/build;
                      };
                      name = Release;
               };
-              69509DFD30BF42D38A96D802 /* MinSizeRel */ = {
+              99AEB2C9E34543B98B51C04F /* MinSizeRel */ = {
                      isa = XCBuildConfiguration;
                      buildSettings = {
                             ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
                             ONLY_ACTIVE_ARCH = YES;
-                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk";
-                            SYMROOT = ../googletest/build;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk";
+                            SYMROOT = /Users/alex/Coding/geosim/liquidfun/Box2D/googletest/build;
                      };
                      name = MinSizeRel;
               };
-              FFF1CFAA718847AF9E708BCF /* RelWithDebInfo */ = {
+              B979B14667AC465695E808D1 /* RelWithDebInfo */ = {
                      isa = XCBuildConfiguration;
                      buildSettings = {
                             ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
                             ONLY_ACTIVE_ARCH = YES;
-                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk";
-                            SYMROOT = ../googletest/build;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk";
+                            SYMROOT = /Users/alex/Coding/geosim/liquidfun/Box2D/googletest/build;
                      };
                      name = RelWithDebInfo;
               };
-              3A789E9BFDB34795A92144D5 /* Debug */ = {
+              A13F86A3FE6443FF983764BA /* Debug */ = {
                      isa = XCBuildConfiguration;
                      buildSettings = {
-                            COMBINE_HIDPI_IMAGES = YES;
                             GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
                             GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
                             GCC_OPTIMIZATION_LEVEL = 0;
                             GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'LIQUIDFUN_EXTERNAL_LANGUAGE_API=1'", );
                             GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-                            HEADER_SEARCH_PATHS = (../../../googletest/include, ../../../googletest, );
+                            HEADER_SEARCH_PATHS = (/Users/alex/Coding/geosim/googletest/include, /Users/alex/Coding/geosim/googletest, );
                             INSTALL_PATH = "";
                             OTHER_CFLAGS = "  ";
-                            OTHER_LDFLAGS = " ";
+                            OTHER_LDFLAGS = "";
                             OTHER_REZFLAGS = "";
                             PRODUCT_NAME = ALL_BUILD;
                             SECTORDER_FLAGS = "";
-                            SYMROOT = ../googletest;
+                            SYMROOT = /Users/alex/Coding/geosim/liquidfun/Box2D/googletest;
                             USE_HEADERMAP = NO;
                             WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
                      };
                      name = Debug;
               };
-              B1AD58162A654C4D9677DB37 /* Release */ = {
+              35EAF45CCD314020AB8136B5 /* Release */ = {
                      isa = XCBuildConfiguration;
                      buildSettings = {
-                            COMBINE_HIDPI_IMAGES = YES;
                             GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
                             GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
                             GCC_OPTIMIZATION_LEVEL = 0;
                             GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'LIQUIDFUN_EXTERNAL_LANGUAGE_API=1'", );
                             GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-                            HEADER_SEARCH_PATHS = (../../../googletest/include, ../../../googletest, );
+                            HEADER_SEARCH_PATHS = (/Users/alex/Coding/geosim/googletest/include, /Users/alex/Coding/geosim/googletest, );
                             INSTALL_PATH = "";
                             OTHER_CFLAGS = "  ";
-                            OTHER_LDFLAGS = " ";
+                            OTHER_LDFLAGS = "";
                             OTHER_REZFLAGS = "";
                             PRODUCT_NAME = ALL_BUILD;
                             SECTORDER_FLAGS = "";
-                            SYMROOT = ../googletest;
+                            SYMROOT = /Users/alex/Coding/geosim/liquidfun/Box2D/googletest;
                             USE_HEADERMAP = NO;
                             WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
                      };
                      name = Release;
               };
-              E893F48F4BB740669C729430 /* MinSizeRel */ = {
+              C67F3AE4E74743119C02B85D /* MinSizeRel */ = {
                      isa = XCBuildConfiguration;
                      buildSettings = {
-                            COMBINE_HIDPI_IMAGES = YES;
                             GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
                             GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
                             GCC_OPTIMIZATION_LEVEL = 0;
                             GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'LIQUIDFUN_EXTERNAL_LANGUAGE_API=1'", );
                             GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-                            HEADER_SEARCH_PATHS = (../../../googletest/include, ../../../googletest, );
+                            HEADER_SEARCH_PATHS = (/Users/alex/Coding/geosim/googletest/include, /Users/alex/Coding/geosim/googletest, );
                             INSTALL_PATH = "";
                             OTHER_CFLAGS = "  ";
-                            OTHER_LDFLAGS = " ";
+                            OTHER_LDFLAGS = "";
                             OTHER_REZFLAGS = "";
                             PRODUCT_NAME = ALL_BUILD;
                             SECTORDER_FLAGS = "";
-                            SYMROOT = ../googletest;
+                            SYMROOT = /Users/alex/Coding/geosim/liquidfun/Box2D/googletest;
                             USE_HEADERMAP = NO;
                             WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
                      };
                      name = MinSizeRel;
               };
-              FCEAE53FD2D04AFA8FB8B649 /* RelWithDebInfo */ = {
+              16ECD8BA41894C0187213864 /* RelWithDebInfo */ = {
                      isa = XCBuildConfiguration;
                      buildSettings = {
-                            COMBINE_HIDPI_IMAGES = YES;
                             GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
                             GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
                             GCC_OPTIMIZATION_LEVEL = 0;
                             GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'LIQUIDFUN_EXTERNAL_LANGUAGE_API=1'", );
                             GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-                            HEADER_SEARCH_PATHS = (../../../googletest/include, ../../../googletest, );
+                            HEADER_SEARCH_PATHS = (/Users/alex/Coding/geosim/googletest/include, /Users/alex/Coding/geosim/googletest, );
                             INSTALL_PATH = "";
                             OTHER_CFLAGS = "  ";
-                            OTHER_LDFLAGS = " ";
+                            OTHER_LDFLAGS = "";
                             OTHER_REZFLAGS = "";
                             PRODUCT_NAME = ALL_BUILD;
                             SECTORDER_FLAGS = "";
-                            SYMROOT = ../googletest;
+                            SYMROOT = /Users/alex/Coding/geosim/liquidfun/Box2D/googletest;
                             USE_HEADERMAP = NO;
                             WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
                      };
                      name = RelWithDebInfo;
               };
-              7D9B53552CF94E07BDE38B90 /* Debug */ = {
+              C1929B71174D462BB7E80203 /* Debug */ = {
                      isa = XCBuildConfiguration;
                      buildSettings = {
-                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'LIQUIDFUN_EXTERNAL_LANGUAGE_API=1'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/alex/Coding/geosim/googletest/include, /Users/alex/Coding/geosim/googletest, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/alex/Coding/geosim/liquidfun/Box2D/googletest;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              FF448F49A8F0495D8F103F08 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'LIQUIDFUN_EXTERNAL_LANGUAGE_API=1'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/alex/Coding/geosim/googletest/include, /Users/alex/Coding/geosim/googletest, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/alex/Coding/geosim/liquidfun/Box2D/googletest;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              0E8D956928AD4F30A2B2ED0D /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'LIQUIDFUN_EXTERNAL_LANGUAGE_API=1'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/alex/Coding/geosim/googletest/include, /Users/alex/Coding/geosim/googletest, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/alex/Coding/geosim/liquidfun/Box2D/googletest;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              3BF5ABE907AC4357B781D74E /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'LIQUIDFUN_EXTERNAL_LANGUAGE_API=1'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/alex/Coding/geosim/googletest/include, /Users/alex/Coding/geosim/googletest, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/alex/Coding/geosim/liquidfun/Box2D/googletest;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              417E0C4BE52B4091B1CCCFFF /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
                             EXECUTABLE_PREFIX = lib;
                             EXECUTABLE_SUFFIX = ".a";
                             GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
@@ -502,25 +663,24 @@ exit 0";
                             GCC_OPTIMIZATION_LEVEL = 0;
                             GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'LIQUIDFUN_EXTERNAL_LANGUAGE_API=1'", );
                             GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-                            HEADER_SEARCH_PATHS = (../../../googletest/include, ../../../googletest, );
+                            HEADER_SEARCH_PATHS = (/Users/alex/Coding/geosim/googletest/include, /Users/alex/Coding/geosim/googletest, );
                             INSTALL_PATH = "";
                             LIBRARY_STYLE = STATIC;
-                            OTHER_CFLAGS = " -Wall -Werror -Wno-long-long -Wno-variadic-macros    -DDEBUG=1  -Wall -Werror -Wno-long-long -Wno-variadic-macros  -DGTEST_HAS_PTHREAD=1    ";
-                            OTHER_CPLUSPLUSFLAGS = " -Wall -Werror -Wno-long-long -Wno-variadic-macros    -DDEBUG=1  -Wall -Werror -Wno-long-long -Wno-variadic-macros  -DGTEST_HAS_PTHREAD=1    ";
-                            OTHER_LDFLAGS = " ";
+                            OTHER_CFLAGS = "     -DDEBUG=1  ";
+                            OTHER_CPLUSPLUSFLAGS = "     -DDEBUG=1  ";
+                            OTHER_LDFLAGS = "";
                             OTHER_REZFLAGS = "";
                             PRODUCT_NAME = gtest;
                             SECTORDER_FLAGS = "";
-                            SYMROOT = ../googletest;
+                            SYMROOT = /Users/alex/Coding/geosim/liquidfun/Box2D/googletest;
                             USE_HEADERMAP = NO;
-                            WARNING_CFLAGS = "-Wall -Werror -Wno-long-long -Wno-variadic-macros";
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
                      };
                      name = Debug;
               };
-              D8DA7867D0214598ADF6A766 /* Release */ = {
+              F8DDE97AAD494575824DED9A /* Release */ = {
                      isa = XCBuildConfiguration;
                      buildSettings = {
-                            COMBINE_HIDPI_IMAGES = YES;
                             EXECUTABLE_PREFIX = lib;
                             EXECUTABLE_SUFFIX = ".a";
                             GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
@@ -528,25 +688,24 @@ exit 0";
                             GCC_OPTIMIZATION_LEVEL = 3;
                             GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'LIQUIDFUN_EXTERNAL_LANGUAGE_API=1'", );
                             GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-                            HEADER_SEARCH_PATHS = (../../../googletest/include, ../../../googletest, );
+                            HEADER_SEARCH_PATHS = (/Users/alex/Coding/geosim/googletest/include, /Users/alex/Coding/geosim/googletest, );
                             INSTALL_PATH = "";
                             LIBRARY_STYLE = STATIC;
-                            OTHER_CFLAGS = " -Wall -Werror -Wno-long-long -Wno-variadic-macros     -DNDEBUG -DDEBUG=0  -Wall -Werror -Wno-long-long -Wno-variadic-macros  -DGTEST_HAS_PTHREAD=1    ";
-                            OTHER_CPLUSPLUSFLAGS = " -Wall -Werror -Wno-long-long -Wno-variadic-macros     -DNDEBUG -DDEBUG=0  -Wall -Werror -Wno-long-long -Wno-variadic-macros  -DGTEST_HAS_PTHREAD=1    ";
-                            OTHER_LDFLAGS = " ";
+                            OTHER_CFLAGS = "      -DNDEBUG -DDEBUG=0  ";
+                            OTHER_CPLUSPLUSFLAGS = "      -DNDEBUG -DDEBUG=0  ";
+                            OTHER_LDFLAGS = "";
                             OTHER_REZFLAGS = "";
                             PRODUCT_NAME = gtest;
                             SECTORDER_FLAGS = "";
-                            SYMROOT = ../googletest;
+                            SYMROOT = /Users/alex/Coding/geosim/liquidfun/Box2D/googletest;
                             USE_HEADERMAP = NO;
-                            WARNING_CFLAGS = "-Wall -Werror -Wno-long-long -Wno-variadic-macros";
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
                      };
                      name = Release;
               };
-              70353827EA934AB2BCA0266D /* MinSizeRel */ = {
+              CC214B8BB56D43279F68C006 /* MinSizeRel */ = {
                      isa = XCBuildConfiguration;
                      buildSettings = {
-                            COMBINE_HIDPI_IMAGES = YES;
                             EXECUTABLE_PREFIX = lib;
                             EXECUTABLE_SUFFIX = ".a";
                             GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
@@ -554,25 +713,24 @@ exit 0";
                             GCC_OPTIMIZATION_LEVEL = s;
                             GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'LIQUIDFUN_EXTERNAL_LANGUAGE_API=1'", );
                             GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-                            HEADER_SEARCH_PATHS = (../../../googletest/include, ../../../googletest, );
+                            HEADER_SEARCH_PATHS = (/Users/alex/Coding/geosim/googletest/include, /Users/alex/Coding/geosim/googletest, );
                             INSTALL_PATH = "";
                             LIBRARY_STYLE = STATIC;
-                            OTHER_CFLAGS = " -Wall -Werror -Wno-long-long -Wno-variadic-macros     -DNDEBUG -DDEBUG=0  -Wall -Werror -Wno-long-long -Wno-variadic-macros  -DGTEST_HAS_PTHREAD=1    ";
-                            OTHER_CPLUSPLUSFLAGS = " -Wall -Werror -Wno-long-long -Wno-variadic-macros     -DNDEBUG -DDEBUG=0  -Wall -Werror -Wno-long-long -Wno-variadic-macros  -DGTEST_HAS_PTHREAD=1    ";
-                            OTHER_LDFLAGS = " ";
+                            OTHER_CFLAGS = "      -DNDEBUG -DDEBUG=0  ";
+                            OTHER_CPLUSPLUSFLAGS = "      -DNDEBUG -DDEBUG=0  ";
+                            OTHER_LDFLAGS = "";
                             OTHER_REZFLAGS = "";
                             PRODUCT_NAME = gtest;
                             SECTORDER_FLAGS = "";
-                            SYMROOT = ../googletest;
+                            SYMROOT = /Users/alex/Coding/geosim/liquidfun/Box2D/googletest;
                             USE_HEADERMAP = NO;
-                            WARNING_CFLAGS = "-Wall -Werror -Wno-long-long -Wno-variadic-macros";
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
                      };
                      name = MinSizeRel;
               };
-              7864E7D8C14A4D959704C39F /* RelWithDebInfo */ = {
+              36BF0A1C1D6046BDB107661F /* RelWithDebInfo */ = {
                      isa = XCBuildConfiguration;
                      buildSettings = {
-                            COMBINE_HIDPI_IMAGES = YES;
                             EXECUTABLE_PREFIX = lib;
                             EXECUTABLE_SUFFIX = ".a";
                             GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
@@ -580,25 +738,24 @@ exit 0";
                             GCC_OPTIMIZATION_LEVEL = 2;
                             GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'LIQUIDFUN_EXTERNAL_LANGUAGE_API=1'", );
                             GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-                            HEADER_SEARCH_PATHS = (../../../googletest/include, ../../../googletest, );
+                            HEADER_SEARCH_PATHS = (/Users/alex/Coding/geosim/googletest/include, /Users/alex/Coding/geosim/googletest, );
                             INSTALL_PATH = "";
                             LIBRARY_STYLE = STATIC;
-                            OTHER_CFLAGS = " -Wall -Werror -Wno-long-long -Wno-variadic-macros        -DNDEBUG -DDEBUG=0  -Wall -Werror -Wno-long-long -Wno-variadic-macros  -DGTEST_HAS_PTHREAD=1    ";
-                            OTHER_CPLUSPLUSFLAGS = " -Wall -Werror -Wno-long-long -Wno-variadic-macros        -DNDEBUG -DDEBUG=0  -Wall -Werror -Wno-long-long -Wno-variadic-macros  -DGTEST_HAS_PTHREAD=1    ";
-                            OTHER_LDFLAGS = " ";
+                            OTHER_CFLAGS = "         -DDEBUG=0  ";
+                            OTHER_CPLUSPLUSFLAGS = "         -DDEBUG=0  ";
+                            OTHER_LDFLAGS = "";
                             OTHER_REZFLAGS = "";
                             PRODUCT_NAME = gtest;
                             SECTORDER_FLAGS = "";
-                            SYMROOT = ../googletest;
+                            SYMROOT = /Users/alex/Coding/geosim/liquidfun/Box2D/googletest;
                             USE_HEADERMAP = NO;
-                            WARNING_CFLAGS = "-Wall -Werror -Wno-long-long -Wno-variadic-macros";
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
                      };
                      name = RelWithDebInfo;
               };
-              315E2D38683B4B26A004ABD8 /* Debug */ = {
+              ED012E341E3448CAA3020919 /* Debug */ = {
                      isa = XCBuildConfiguration;
                      buildSettings = {
-                            COMBINE_HIDPI_IMAGES = YES;
                             EXECUTABLE_PREFIX = lib;
                             EXECUTABLE_SUFFIX = ".a";
                             GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
@@ -606,25 +763,24 @@ exit 0";
                             GCC_OPTIMIZATION_LEVEL = 0;
                             GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'LIQUIDFUN_EXTERNAL_LANGUAGE_API=1'", );
                             GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-                            HEADER_SEARCH_PATHS = (../../../googletest/include, ../../../googletest, );
+                            HEADER_SEARCH_PATHS = (/Users/alex/Coding/geosim/googletest/include, /Users/alex/Coding/geosim/googletest, );
                             INSTALL_PATH = "";
                             LIBRARY_STYLE = STATIC;
-                            OTHER_CFLAGS = " -Wall -Werror -Wno-long-long -Wno-variadic-macros    -DDEBUG=1  -Wall -Werror -Wno-long-long -Wno-variadic-macros  -DGTEST_HAS_PTHREAD=1    ";
-                            OTHER_CPLUSPLUSFLAGS = " -Wall -Werror -Wno-long-long -Wno-variadic-macros    -DDEBUG=1  -Wall -Werror -Wno-long-long -Wno-variadic-macros  -DGTEST_HAS_PTHREAD=1    ";
-                            OTHER_LDFLAGS = " ";
+                            OTHER_CFLAGS = "     -DDEBUG=1  ";
+                            OTHER_CPLUSPLUSFLAGS = "     -DDEBUG=1  ";
+                            OTHER_LDFLAGS = "";
                             OTHER_REZFLAGS = "";
                             PRODUCT_NAME = gtest_main;
                             SECTORDER_FLAGS = "";
-                            SYMROOT = ../googletest;
+                            SYMROOT = /Users/alex/Coding/geosim/liquidfun/Box2D/googletest;
                             USE_HEADERMAP = NO;
-                            WARNING_CFLAGS = "-Wall -Werror -Wno-long-long -Wno-variadic-macros";
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
                      };
                      name = Debug;
               };
-              4AD47A6E31204AF891445919 /* Release */ = {
+              526E6A43F23D4C179714092F /* Release */ = {
                      isa = XCBuildConfiguration;
                      buildSettings = {
-                            COMBINE_HIDPI_IMAGES = YES;
                             EXECUTABLE_PREFIX = lib;
                             EXECUTABLE_SUFFIX = ".a";
                             GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
@@ -632,25 +788,24 @@ exit 0";
                             GCC_OPTIMIZATION_LEVEL = 3;
                             GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'LIQUIDFUN_EXTERNAL_LANGUAGE_API=1'", );
                             GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-                            HEADER_SEARCH_PATHS = (../../../googletest/include, ../../../googletest, );
+                            HEADER_SEARCH_PATHS = (/Users/alex/Coding/geosim/googletest/include, /Users/alex/Coding/geosim/googletest, );
                             INSTALL_PATH = "";
                             LIBRARY_STYLE = STATIC;
-                            OTHER_CFLAGS = " -Wall -Werror -Wno-long-long -Wno-variadic-macros     -DNDEBUG -DDEBUG=0  -Wall -Werror -Wno-long-long -Wno-variadic-macros  -DGTEST_HAS_PTHREAD=1    ";
-                            OTHER_CPLUSPLUSFLAGS = " -Wall -Werror -Wno-long-long -Wno-variadic-macros     -DNDEBUG -DDEBUG=0  -Wall -Werror -Wno-long-long -Wno-variadic-macros  -DGTEST_HAS_PTHREAD=1    ";
-                            OTHER_LDFLAGS = " ";
+                            OTHER_CFLAGS = "      -DNDEBUG -DDEBUG=0  ";
+                            OTHER_CPLUSPLUSFLAGS = "      -DNDEBUG -DDEBUG=0  ";
+                            OTHER_LDFLAGS = "";
                             OTHER_REZFLAGS = "";
                             PRODUCT_NAME = gtest_main;
                             SECTORDER_FLAGS = "";
-                            SYMROOT = ../googletest;
+                            SYMROOT = /Users/alex/Coding/geosim/liquidfun/Box2D/googletest;
                             USE_HEADERMAP = NO;
-                            WARNING_CFLAGS = "-Wall -Werror -Wno-long-long -Wno-variadic-macros";
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
                      };
                      name = Release;
               };
-              376A7B4FD46445568C3265F7 /* MinSizeRel */ = {
+              505E0A3B841546439B7528AA /* MinSizeRel */ = {
                      isa = XCBuildConfiguration;
                      buildSettings = {
-                            COMBINE_HIDPI_IMAGES = YES;
                             EXECUTABLE_PREFIX = lib;
                             EXECUTABLE_SUFFIX = ".a";
                             GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
@@ -658,25 +813,24 @@ exit 0";
                             GCC_OPTIMIZATION_LEVEL = s;
                             GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'LIQUIDFUN_EXTERNAL_LANGUAGE_API=1'", );
                             GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-                            HEADER_SEARCH_PATHS = (../../../googletest/include, ../../../googletest, );
+                            HEADER_SEARCH_PATHS = (/Users/alex/Coding/geosim/googletest/include, /Users/alex/Coding/geosim/googletest, );
                             INSTALL_PATH = "";
                             LIBRARY_STYLE = STATIC;
-                            OTHER_CFLAGS = " -Wall -Werror -Wno-long-long -Wno-variadic-macros     -DNDEBUG -DDEBUG=0  -Wall -Werror -Wno-long-long -Wno-variadic-macros  -DGTEST_HAS_PTHREAD=1    ";
-                            OTHER_CPLUSPLUSFLAGS = " -Wall -Werror -Wno-long-long -Wno-variadic-macros     -DNDEBUG -DDEBUG=0  -Wall -Werror -Wno-long-long -Wno-variadic-macros  -DGTEST_HAS_PTHREAD=1    ";
-                            OTHER_LDFLAGS = " ";
+                            OTHER_CFLAGS = "      -DNDEBUG -DDEBUG=0  ";
+                            OTHER_CPLUSPLUSFLAGS = "      -DNDEBUG -DDEBUG=0  ";
+                            OTHER_LDFLAGS = "";
                             OTHER_REZFLAGS = "";
                             PRODUCT_NAME = gtest_main;
                             SECTORDER_FLAGS = "";
-                            SYMROOT = ../googletest;
+                            SYMROOT = /Users/alex/Coding/geosim/liquidfun/Box2D/googletest;
                             USE_HEADERMAP = NO;
-                            WARNING_CFLAGS = "-Wall -Werror -Wno-long-long -Wno-variadic-macros";
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
                      };
                      name = MinSizeRel;
               };
-              E6AC7EA040914480B90EB32A /* RelWithDebInfo */ = {
+              F41763E4D75E4BEC8BF954AC /* RelWithDebInfo */ = {
                      isa = XCBuildConfiguration;
                      buildSettings = {
-                            COMBINE_HIDPI_IMAGES = YES;
                             EXECUTABLE_PREFIX = lib;
                             EXECUTABLE_SUFFIX = ".a";
                             GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
@@ -684,104 +838,100 @@ exit 0";
                             GCC_OPTIMIZATION_LEVEL = 2;
                             GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'LIQUIDFUN_EXTERNAL_LANGUAGE_API=1'", );
                             GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-                            HEADER_SEARCH_PATHS = (../../../googletest/include, ../../../googletest, );
+                            HEADER_SEARCH_PATHS = (/Users/alex/Coding/geosim/googletest/include, /Users/alex/Coding/geosim/googletest, );
                             INSTALL_PATH = "";
                             LIBRARY_STYLE = STATIC;
-                            OTHER_CFLAGS = " -Wall -Werror -Wno-long-long -Wno-variadic-macros        -DNDEBUG -DDEBUG=0  -Wall -Werror -Wno-long-long -Wno-variadic-macros  -DGTEST_HAS_PTHREAD=1    ";
-                            OTHER_CPLUSPLUSFLAGS = " -Wall -Werror -Wno-long-long -Wno-variadic-macros        -DNDEBUG -DDEBUG=0  -Wall -Werror -Wno-long-long -Wno-variadic-macros  -DGTEST_HAS_PTHREAD=1    ";
-                            OTHER_LDFLAGS = " ";
+                            OTHER_CFLAGS = "         -DDEBUG=0  ";
+                            OTHER_CPLUSPLUSFLAGS = "         -DDEBUG=0  ";
+                            OTHER_LDFLAGS = "";
                             OTHER_REZFLAGS = "";
                             PRODUCT_NAME = gtest_main;
                             SECTORDER_FLAGS = "";
-                            SYMROOT = ../googletest;
+                            SYMROOT = /Users/alex/Coding/geosim/liquidfun/Box2D/googletest;
                             USE_HEADERMAP = NO;
-                            WARNING_CFLAGS = "-Wall -Werror -Wno-long-long -Wno-variadic-macros";
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
                      };
                      name = RelWithDebInfo;
               };
-              088F39EBD86D4125BB0EDE32 /* Debug */ = {
+              0C55325FC6B74EE6831C6943 /* Debug */ = {
                      isa = XCBuildConfiguration;
                      buildSettings = {
-                            COMBINE_HIDPI_IMAGES = YES;
                             GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
                             GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
                             GCC_OPTIMIZATION_LEVEL = 0;
-                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'LIQUIDFUN_EXTERNAL_LANGUAGE_API=1'", );
                             GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-                            HEADER_SEARCH_PATHS = (../../../googletest/include, ../../../googletest, );
+                            HEADER_SEARCH_PATHS = (/Users/alex/Coding/geosim/googletest/include, /Users/alex/Coding/geosim/googletest, );
                             INSTALL_PATH = "";
                             OTHER_CFLAGS = "  ";
-                            OTHER_LDFLAGS = " ";
+                            OTHER_LDFLAGS = "";
                             OTHER_REZFLAGS = "";
                             PRODUCT_NAME = install;
                             SECTORDER_FLAGS = "";
-                            SYMROOT = ../googletest;
+                            SYMROOT = /Users/alex/Coding/geosim/liquidfun/Box2D/googletest;
                             USE_HEADERMAP = NO;
                             WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
                      };
                      name = Debug;
               };
-              2350B7043457417D803CCA3B /* Release */ = {
+              A86DBE7BCFAA467196C88EB9 /* Release */ = {
                      isa = XCBuildConfiguration;
                      buildSettings = {
-                            COMBINE_HIDPI_IMAGES = YES;
                             GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
                             GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
                             GCC_OPTIMIZATION_LEVEL = 0;
-                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'LIQUIDFUN_EXTERNAL_LANGUAGE_API=1'", );
                             GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-                            HEADER_SEARCH_PATHS = (../../../googletest/include, ../../../googletest, );
+                            HEADER_SEARCH_PATHS = (/Users/alex/Coding/geosim/googletest/include, /Users/alex/Coding/geosim/googletest, );
                             INSTALL_PATH = "";
                             OTHER_CFLAGS = "  ";
-                            OTHER_LDFLAGS = " ";
+                            OTHER_LDFLAGS = "";
                             OTHER_REZFLAGS = "";
                             PRODUCT_NAME = install;
                             SECTORDER_FLAGS = "";
-                            SYMROOT = ../googletest;
+                            SYMROOT = /Users/alex/Coding/geosim/liquidfun/Box2D/googletest;
                             USE_HEADERMAP = NO;
                             WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
                      };
                      name = Release;
               };
-              BEDAD6F5D7DF49F9BD627399 /* MinSizeRel */ = {
+              0F70BA5B56B84FC5B215355F /* MinSizeRel */ = {
                      isa = XCBuildConfiguration;
                      buildSettings = {
-                            COMBINE_HIDPI_IMAGES = YES;
                             GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
                             GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
                             GCC_OPTIMIZATION_LEVEL = 0;
-                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'LIQUIDFUN_EXTERNAL_LANGUAGE_API=1'", );
                             GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-                            HEADER_SEARCH_PATHS = (../../../googletest/include, ../../../googletest, );
+                            HEADER_SEARCH_PATHS = (/Users/alex/Coding/geosim/googletest/include, /Users/alex/Coding/geosim/googletest, );
                             INSTALL_PATH = "";
                             OTHER_CFLAGS = "  ";
-                            OTHER_LDFLAGS = " ";
+                            OTHER_LDFLAGS = "";
                             OTHER_REZFLAGS = "";
                             PRODUCT_NAME = install;
                             SECTORDER_FLAGS = "";
-                            SYMROOT = ../googletest;
+                            SYMROOT = /Users/alex/Coding/geosim/liquidfun/Box2D/googletest;
                             USE_HEADERMAP = NO;
                             WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
                      };
                      name = MinSizeRel;
               };
-              1559A16A980849AB9B49029A /* RelWithDebInfo */ = {
+              158BEDBF75C940EA8D0FCA2F /* RelWithDebInfo */ = {
                      isa = XCBuildConfiguration;
                      buildSettings = {
-                            COMBINE_HIDPI_IMAGES = YES;
                             GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
                             GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
                             GCC_OPTIMIZATION_LEVEL = 0;
-                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'LIQUIDFUN_EXTERNAL_LANGUAGE_API=1'", );
                             GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-                            HEADER_SEARCH_PATHS = (../../../googletest/include, ../../../googletest, );
+                            HEADER_SEARCH_PATHS = (/Users/alex/Coding/geosim/googletest/include, /Users/alex/Coding/geosim/googletest, );
                             INSTALL_PATH = "";
                             OTHER_CFLAGS = "  ";
-                            OTHER_LDFLAGS = " ";
+                            OTHER_LDFLAGS = "";
                             OTHER_REZFLAGS = "";
                             PRODUCT_NAME = install;
                             SECTORDER_FLAGS = "";
-                            SYMROOT = ../googletest;
+                            SYMROOT = /Users/alex/Coding/geosim/liquidfun/Box2D/googletest;
                             USE_HEADERMAP = NO;
                             WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
                      };
@@ -790,62 +940,73 @@ exit 0";
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-              9F14A6A51F6944C1B022BB9A /* Build configuration list for PBXProject  "gtest" */ = {
+              3F2BE43A4E8E4438B1145350 /* Build configuration list for PBXProject  "gtest" */ = {
                      isa = XCConfigurationList;
                      buildConfigurations = (
-                            8A97CBA139F04966B4D48CD9 /* Debug */,
-                            1055ECD9459746199C0EDD3B /* Release */,
-                            69509DFD30BF42D38A96D802 /* MinSizeRel */,
-                            FFF1CFAA718847AF9E708BCF /* RelWithDebInfo */,
+                            C9A36D91D98641AF9628BD5F /* Debug */,
+                            FA40FD5A5E2B4181A1F1D581 /* Release */,
+                            99AEB2C9E34543B98B51C04F /* MinSizeRel */,
+                            B979B14667AC465695E808D1 /* RelWithDebInfo */,
                      );
                      defaultConfigurationIsVisible = 0;
                      defaultConfigurationName = Debug;
               };
-              8D94BBF10AC74A96AB575590 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+              79259BE23B394719B6546D39 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
                      isa = XCConfigurationList;
                      buildConfigurations = (
-                            3A789E9BFDB34795A92144D5 /* Debug */,
-                            B1AD58162A654C4D9677DB37 /* Release */,
-                            E893F48F4BB740669C729430 /* MinSizeRel */,
-                            FCEAE53FD2D04AFA8FB8B649 /* RelWithDebInfo */,
+                            A13F86A3FE6443FF983764BA /* Debug */,
+                            35EAF45CCD314020AB8136B5 /* Release */,
+                            C67F3AE4E74743119C02B85D /* MinSizeRel */,
+                            16ECD8BA41894C0187213864 /* RelWithDebInfo */,
                      );
                      defaultConfigurationIsVisible = 0;
                      defaultConfigurationName = Debug;
               };
-              753B1F1937A44567A7701ECB /* Build configuration list for PBXNativeTarget "gtest" */ = {
+              902E98738DF2445A86F3CE79 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
                      isa = XCConfigurationList;
                      buildConfigurations = (
-                            7D9B53552CF94E07BDE38B90 /* Debug */,
-                            D8DA7867D0214598ADF6A766 /* Release */,
-                            70353827EA934AB2BCA0266D /* MinSizeRel */,
-                            7864E7D8C14A4D959704C39F /* RelWithDebInfo */,
+                            C1929B71174D462BB7E80203 /* Debug */,
+                            FF448F49A8F0495D8F103F08 /* Release */,
+                            0E8D956928AD4F30A2B2ED0D /* MinSizeRel */,
+                            3BF5ABE907AC4357B781D74E /* RelWithDebInfo */,
                      );
                      defaultConfigurationIsVisible = 0;
                      defaultConfigurationName = Debug;
               };
-              20D4A6A12BDF49429B899538 /* Build configuration list for PBXNativeTarget "gtest_main" */ = {
+              8FD8EF138CFA443593544260 /* Build configuration list for PBXNativeTarget "gtest" */ = {
                      isa = XCConfigurationList;
                      buildConfigurations = (
-                            315E2D38683B4B26A004ABD8 /* Debug */,
-                            4AD47A6E31204AF891445919 /* Release */,
-                            376A7B4FD46445568C3265F7 /* MinSizeRel */,
-                            E6AC7EA040914480B90EB32A /* RelWithDebInfo */,
+                            417E0C4BE52B4091B1CCCFFF /* Debug */,
+                            F8DDE97AAD494575824DED9A /* Release */,
+                            CC214B8BB56D43279F68C006 /* MinSizeRel */,
+                            36BF0A1C1D6046BDB107661F /* RelWithDebInfo */,
                      );
                      defaultConfigurationIsVisible = 0;
                      defaultConfigurationName = Debug;
               };
-              3EC62BB558564D98B3FFF097 /* Build configuration list for PBXAggregateTarget "install" */ = {
+              D844CF74FE624D7681B386F0 /* Build configuration list for PBXNativeTarget "gtest_main" */ = {
                      isa = XCConfigurationList;
                      buildConfigurations = (
-                            088F39EBD86D4125BB0EDE32 /* Debug */,
-                            2350B7043457417D803CCA3B /* Release */,
-                            BEDAD6F5D7DF49F9BD627399 /* MinSizeRel */,
-                            1559A16A980849AB9B49029A /* RelWithDebInfo */,
+                            ED012E341E3448CAA3020919 /* Debug */,
+                            526E6A43F23D4C179714092F /* Release */,
+                            505E0A3B841546439B7528AA /* MinSizeRel */,
+                            F41763E4D75E4BEC8BF954AC /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              3180FE68BBF44BB8BBC5F08F /* Build configuration list for PBXAggregateTarget "install" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            0C55325FC6B74EE6831C6943 /* Debug */,
+                            A86DBE7BCFAA467196C88EB9 /* Release */,
+                            0F70BA5B56B84FC5B215355F /* MinSizeRel */,
+                            158BEDBF75C940EA8D0FCA2F /* RelWithDebInfo */,
                      );
                      defaultConfigurationIsVisible = 0;
                      defaultConfigurationName = Debug;
               };
 /* End XCConfigurationList section */
        };
-       rootObject = 510D469168FE460C87A22C76;
+       rootObject = 94B69B3A07054DB4A84C94BD;
 }

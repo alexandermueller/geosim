@@ -11,7 +11,7 @@
 #define HAVE_ERRNO_H
 /* #undef HAVE_USBHID_H */
 #define HAVE_GETTIMEOFDAY
-/* #undef HAVE_VFPRINTF */
+#define HAVE_VFPRINTF
 /* #undef HAVE_DOPRNT */
 #define NEED_XPARSEGEOMETRY_IMPL
 #define HAVE_STDINT_H
