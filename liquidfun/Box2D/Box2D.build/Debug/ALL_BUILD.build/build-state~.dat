@@ -1,0 +1,29 @@
+TALL_BUILD
+v6
+r1
+cCheck dependencies
+cPhaseScriptExecution CMake\ Rules /Users/alex/Coding/geosim/liquidfun/Box2D/Box2D.build/Debug/ALL_BUILD.build/Script-6635452207964F66A87C247F.sh
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/Box2D.build/Debug/ALL_BUILD.build/Script-6635452207964F66A87C247F.sh
+c0000000054C4345400000000000000AC
+t1422144596
+s172
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesd333cdd46b74ba41^3b6dcdd46b74ba41^---0#1#1#--18"Check dependencies36"C036687A-8BFB-4451-B430-E1E87AB5E9FE-
+
+CPhaseScriptExecution CMake\ Rules /Users/alex/Coding/geosim/liquidfun/Box2D/Box2D.build/Debug/ALL_BUILD.build/Script-6635452207964F66A87C247F.sh
+s443837396.804347
+e443837396.824431
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/alex/Coding/geosim/liquidfun/Box2D/Box2D.build/Debug/ALL_BUILD.build/Script-6635452207964F66A87C247F.sh
+oecho ""
+o
+oecho Build\ all\ projects
+oBuild all projects
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'102"PhaseScriptExecution CMake\ Rules Box2D.build/Debug/ALL_BUILD.build/Script-6635452207964F66A87C247F.sh7730ced46b74ba41^4e0ed3d46b74ba41^-54"echo ""echo Build\ all\ projectsBuild all projects3(21%IDEActivityLogMessage2@8"echo ""-443837396#0#8#-0#-----2@26"echo Build\ all\ projects-443837396#9#26#-0#-----2@19"Build all projects-443837396#35#19#-0#-----0#0#1#--278"PhaseScriptExecution CMake\ Rules Box2D.build/Debug/ALL_BUILD.build/Script-6635452207964F66A87C247F.sh    cd /Users/alex/Coding/geosim/liquidfun/Box2D    /bin/sh -c /Users/alex/Coding/geosim/liquidfun/Box2D/Box2D.build/Debug/ALL_BUILD.build/Script-6635452207964F66A87C247F.sh36"542B4027-1F0F-4014-960A-3410A5B10B37-
+b41988A09-581E-43D1-A6B6-CE7EE3D45A34
+

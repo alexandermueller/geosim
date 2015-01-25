@@ -1,0 +1,29 @@
+TZERO_CHECK
+v6
+r1
+cCheck dependencies
+cPhaseScriptExecution CMake\ Rules /Users/alex/Coding/geosim/liquidfun/Box2D/Box2D.build/Debug/ZERO_CHECK.build/Script-B2CF1501B8F14455ACAC3D95.sh
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/Box2D.build/Debug/ZERO_CHECK.build/Script-B2CF1501B8F14455ACAC3D95.sh
+c0000000054C4344800000000000000AD
+t1422144584
+s173
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesd76bee356c74ba41^569bef356c74ba41^---0#1#1#--18"Check dependencies36"9B87581C-F155-4369-8AC7-17B5C4955F8D-
+
+CPhaseScriptExecution CMake\ Rules /Users/alex/Coding/geosim/liquidfun/Box2D/Box2D.build/Debug/ZERO_CHECK.build/Script-B2CF1501B8F14455ACAC3D95.sh
+s443837493.936642
+e443837494.019704
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/alex/Coding/geosim/liquidfun/Box2D/Box2D.build/Debug/ZERO_CHECK.build/Script-B2CF1501B8F14455ACAC3D95.sh
+oecho ""
+o
+omake -f /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeScripts/ReRunCMake.make
+omake[1]: `CMakeFiles/cmake.check_cache' is up to date.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'103"PhaseScriptExecution CMake\ Rules Box2D.build/Debug/ZERO_CHECK.build/Script-B2CF1501B8F14455ACAC3D95.sh103ef0356c74ba41^630b05366c74ba41^-143"echo ""make -f /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeScripts/ReRunCMake.makemake[1]: `CMakeFiles/cmake.check_cache' is up to date.3(21%IDEActivityLogMessage2@8"echo ""-443837493#0#8#-0#-----2@79"make -f /Users/alex/Coding/geosim/liquidfun/Box2D/CMakeScripts/ReRunCMake.make-443837493#9#79#-0#-----2@55"make[1]: `CMakeFiles/cmake.check_cache' is up to date.-443837494#88#55#-0#-----0#0#1#--280"PhaseScriptExecution CMake\ Rules Box2D.build/Debug/ZERO_CHECK.build/Script-B2CF1501B8F14455ACAC3D95.sh    cd /Users/alex/Coding/geosim/liquidfun/Box2D    /bin/sh -c /Users/alex/Coding/geosim/liquidfun/Box2D/Box2D.build/Debug/ZERO_CHECK.build/Script-B2CF1501B8F14455ACAC3D95.sh36"56CB0081-22AC-48F2-B878-DFC963553BF6-
+bFC18CEA0-1F6B-443E-B3A1-DEE9FC6D86A2
+

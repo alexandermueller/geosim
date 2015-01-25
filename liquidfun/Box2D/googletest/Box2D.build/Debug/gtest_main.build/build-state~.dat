@@ -1,0 +1,92 @@
+Tgtest_main
+v6
+r1
+cCheck dependencies
+cCompileC googletest/Box2D.build/Debug/gtest_main.build/Objects-normal/x86_64/gtest_main.o /Users/alex/Coding/geosim/googletest/src/gtest_main.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/alex/Coding/geosim/liquidfun/Box2D/googletest/Debug/libgtest_main.a normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
+c00000000530295C100000000000000AA
+t1392678337
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c00000000537A9C4C000000000000044C
+t1400544332
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000537A9C4C00000000000001DE
+t1400544332
+s478
+
+N/Users/alex/Coding/geosim/googletest/src/gtest_main.cc
+c0000000054C42EA700000000000006E5
+t1422143143
+s1765
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/googletest/Box2D.build/Debug/gtest_main.build/Objects-normal/x86_64/gtest_main.LinkFileList
+c0000000054C432F9000000000000007B
+t1422144249
+s123
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/googletest/Box2D.build/Debug/gtest_main.build/Objects-normal/x86_64/gtest_main.o
+t1422144251
+s3728
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/googletest/Debug/libgtest_main.a
+t2
+s0
+
+CBuild AST from /Users/alex/Coding/geosim/googletest/src/gtest_main.cc
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies4f5af0796a74ba41^9ca5f0796a74ba41^---0#1#1#--18"Check dependencies36"62B245D3-6E06-458D-8847-92C0C1095519-
+
+CCompileC googletest/Box2D.build/Debug/gtest_main.build/Objects-normal/x86_64/gtest_main.o /Users/alex/Coding/geosim/googletest/src/gtest_main.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s443837050.067179
+e443837051.104528
+r1
+xCompileC
+xgoogletest/Box2D.build/Debug/gtest_main.build/Objects-normal/x86_64/gtest_main.o
+x/Users/alex/Coding/geosim/googletest/src/gtest_main.cc
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/alex/Coding/geosim/googletest/src/gtest_main.cc
+d/Users/alex/Coding/geosim/googletest/include/gtest/gtest.h
+d/Users/alex/Coding/geosim/googletest/include/gtest/internal/gtest-internal.h
+d/Users/alex/Coding/geosim/googletest/include/gtest/internal/gtest-port.h
+d/Users/alex/Coding/geosim/googletest/include/gtest/internal/gtest-tuple.h
+d/Users/alex/Coding/geosim/googletest/include/gtest/gtest-message.h
+d/Users/alex/Coding/geosim/googletest/include/gtest/internal/gtest-string.h
+d/Users/alex/Coding/geosim/googletest/include/gtest/internal/gtest-filepath.h
+d/Users/alex/Coding/geosim/googletest/include/gtest/internal/gtest-type-util.h
+d/Users/alex/Coding/geosim/googletest/include/gtest/gtest-death-test.h
+d/Users/alex/Coding/geosim/googletest/include/gtest/internal/gtest-death-test-internal.h
+d/Users/alex/Coding/geosim/googletest/include/gtest/gtest-param-test.h
+d/Users/alex/Coding/geosim/googletest/include/gtest/internal/gtest-param-util.h
+d/Users/alex/Coding/geosim/googletest/include/gtest/internal/gtest-linked_ptr.h
+d/Users/alex/Coding/geosim/googletest/include/gtest/gtest-printers.h
+d/Users/alex/Coding/geosim/googletest/include/gtest/internal/gtest-param-util-generated.h
+d/Users/alex/Coding/geosim/googletest/include/gtest/gtest_prod.h
+d/Users/alex/Coding/geosim/googletest/include/gtest/gtest-test-part.h
+d/Users/alex/Coding/geosim/googletest/include/gtest/gtest-typed-test.h
+d/Users/alex/Coding/geosim/googletest/include/gtest/gtest_pred_impl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Users/alex/Coding/geosim/googletest/src/gtest_main.cc206"CompileC googletest/Box2D.build/Debug/gtest_main.build/Objects-normal/x86_64/gtest_main.o /Users/alex/Coding/geosim/googletest/src/gtest_main.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler884c117a6a74ba41^64e61a7b6a74ba41^---0#0#1#-19%DVTDocumentLocation2@70"file://localhost/Users/alex/Coding/geosim/googletest/src/gtest_main.cc0000000000000000^2419"CompileC googletest/Box2D.build/Debug/gtest_main.build/Objects-normal/x86_64/gtest_main.o /Users/alex/Coding/geosim/googletest/src/gtest_main.cc normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alex/Coding/geosim/liquidfun/Box2D    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DLIQUIDFUN_EXTERNAL_LANGUAGE_API=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/alex/Coding/geosim/liquidfun/Box2D/googletest/Debug/include -I../../googletest/include -I../../googletest -I/Users/alex/Coding/geosim/liquidfun/Box2D/googletest/Box2D.build/Debug/gtest_main.build/DerivedSources/x86_64 -I/Users/alex/Coding/geosim/liquidfun/Box2D/googletest/Box2D.build/Debug/gtest_main.build/DerivedSources -Wall -Werror -Wno-long-long -Wno-variadic-macros -F/Users/alex/Coding/geosim/liquidfun/Box2D/googletest/Debug -Wall -Werror -Wno-long-long -Wno-variadic-macros -DDEBUG=1 -Wall -Werror -Wno-long-long -Wno-variadic-macros -DGTEST_HAS_PTHREAD=1 -MMD -MT dependencies -MF /Users/alex/Coding/geosim/liquidfun/Box2D/googletest/Box2D.build/Debug/gtest_main.build/Objects-normal/x86_64/gtest_main.d --serialize-diagnostics /Users/alex/Coding/geosim/liquidfun/Box2D/googletest/Box2D.build/Debug/gtest_main.build/Objects-normal/x86_64/gtest_main.dia -c /Users/alex/Coding/geosim/googletest/src/gtest_main.cc -o /Users/alex/Coding/geosim/liquidfun/Box2D/googletest/Box2D.build/Debug/gtest_main.build/Objects-normal/x86_64/gtest_main.o36"F38F5E2A-93BE-4A63-B1D3-4127F3421645-
+b9EA6E9EB-3B95-49B6-8703-09AF3AFFD39E
+
+CLibtool /Users/alex/Coding/geosim/liquidfun/Box2D/googletest/Debug/libgtest_main.a normal x86_64
+s443837051.175103
+e443837051.184192
+r1
+xLibtool
+x/Users/alex/Coding/geosim/liquidfun/Box2D/googletest/Debug/libgtest_main.a
+xnormal
+xx86_64
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Libtool googletest/Debug/libgtest_main.a normal x86_6454"Libtool googletest/Debug/libgtest_main.a normal x86_645ce62c7b6a74ba41^b83b2f7b6a74ba41^---0#0#1#--664"Libtool googletest/Debug/libgtest_main.a normal x86_64    cd /Users/alex/Coding/geosim/liquidfun/Box2D    export MACOSX_DEPLOYMENT_TARGET=10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/alex/Coding/geosim/liquidfun/Box2D/googletest/Debug -filelist /Users/alex/Coding/geosim/liquidfun/Box2D/googletest/Box2D.build/Debug/gtest_main.build/Objects-normal/x86_64/gtest_main.LinkFileList -o /Users/alex/Coding/geosim/liquidfun/Box2D/googletest/Debug/libgtest_main.a36"DBCC7A63-6CD3-4E1E-AC73-70413D17315E-
+b9EA6E9EB-3B95-49B6-8703-09AF3AFFD39E
+

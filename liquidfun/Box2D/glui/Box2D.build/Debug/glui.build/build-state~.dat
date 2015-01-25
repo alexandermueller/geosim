@@ -1,0 +1,1106 @@
+Tglui
+v6
+r1
+cCheck dependencies
+cCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/algebra3.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/algebra3.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/arcball.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/arcball.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_add_controls.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_add_controls.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_bitmap_img_data.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_bitmap_img_data.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_bitmaps.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_bitmaps.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_button.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_button.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_checkbox.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_checkbox.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_column.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_column.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_commandline.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_commandline.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_control.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_control.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_edittext.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_edittext.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_filebrowser.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_filebrowser.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_list.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_list.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_listbox.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_listbox.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_mouse_iaction.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_mouse_iaction.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_node.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_node.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_panel.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_panel.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_radio.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_radio.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_rollout.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_rollout.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_rotation.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_rotation.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_scrollbar.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_scrollbar.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_separator.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_separator.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_spinner.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_spinner.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_statictext.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_statictext.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_string.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_string.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_textbox.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_textbox.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_translation.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_translation.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_tree.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_tree.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_treepanel.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_treepanel.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_window.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_window.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/quaternion.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/quaternion.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug/libglui.a normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
+c00000000530295C100000000000000AA
+t1392678337
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c00000000537A9C4C000000000000044C
+t1400544332
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000537A9C4C00000000000001DE
+t1400544332
+s478
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/algebra3.o
+t1422144246
+s108720
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/arcball.o
+t1422144245
+s21624
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui.LinkFileList
+c0000000054C432F50000000000000E27
+t1422144245
+s3623
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui.o
+t1422144246
+s153636
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_add_controls.o
+t1422144246
+s85376
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_bitmap_img_data.o
+t1422144246
+s8716
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_bitmaps.o
+t1422144246
+s13900
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_button.o
+t1422144246
+s92304
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_checkbox.o
+t1422144247
+s94000
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_column.o
+t1422144247
+s88512
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_commandline.o
+t1422144247
+s178164
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_control.o
+t1422144247
+s127272
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_edittext.o
+t1422144247
+s165232
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_filebrowser.o
+t1422144247
+s116384
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_list.o
+t1422144247
+s122756
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_listbox.o
+t1422144248
+s111288
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_mouse_iaction.o
+t1422144248
+s86936
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_node.o
+t1422144248
+s72748
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_panel.o
+t1422144248
+s95072
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_radio.o
+t1422144248
+s108316
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_rollout.o
+t1422144248
+s100436
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_rotation.o
+t1422144248
+s2088
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_scrollbar.o
+t1422144248
+s115092
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_separator.o
+t1422144249
+s88560
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_spinner.o
+t1422144249
+s106372
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_statictext.o
+t1422144249
+s91492
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_string.o
+t1422144249
+s34096
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_textbox.o
+t1422144249
+s169820
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_translation.o
+t1422144249
+s107324
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_tree.o
+t1422144249
+s108224
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_treepanel.o
+t1422144250
+s114872
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_window.o
+t1422144250
+s70916
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/quaternion.o
+t1422144249
+s24800
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug/libglui.a
+t2
+s0
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/algebra3.cpp
+c0000000054C42EA80000000000008965
+t1422143144
+s35173
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/arcball.cpp
+c0000000054C42EA8000000000000161B
+t1422143144
+s5659
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui.cpp
+c0000000054C42EA8000000000000DA57
+t1422143144
+s55895
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_add_controls.cpp
+c0000000054C42EA800000000000025DC
+t1422143144
+s9692
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_bitmap_img_data.cpp
+c0000000054C42EA800000000000052F1
+t1422143144
+s21233
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_bitmaps.cpp
+c0000000054C42EA80000000000001311
+t1422143144
+s4881
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_button.cpp
+c0000000054C42EA80000000000001228
+t1422143144
+s4648
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_checkbox.cpp
+c0000000054C42EA800000000000012AC
+t1422143144
+s4780
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_column.cpp
+c0000000054C42EA80000000000000984
+t1422143144
+s2436
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_commandline.cpp
+c0000000054C42EA80000000000001426
+t1422143144
+s5158
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_control.cpp
+c0000000054C42EA800000000000075EF
+t1422143144
+s30191
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_edittext.cpp
+c0000000054C42EA80000000000008513
+t1422143144
+s34067
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_filebrowser.cpp
+c0000000054C42EA80000000000000EEE
+t1422143144
+s3822
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_list.cpp
+c0000000054C42EA80000000000003172
+t1422143144
+s12658
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_listbox.cpp
+c0000000054C42EA80000000000002AC4
+t1422143144
+s10948
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_mouse_iaction.cpp
+c0000000054C42EA80000000000001730
+t1422143144
+s5936
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_node.cpp
+c0000000054C42EA80000000000001AE7
+t1422143144
+s6887
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_panel.cpp
+c0000000054C42EA8000000000000132A
+t1422143144
+s4906
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_radio.cpp
+c0000000054C42EA800000000000023DD
+t1422143144
+s9181
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_rollout.cpp
+c0000000054C42EA800000000000019A7
+t1422143144
+s6567
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_rotation.cpp
+c0000000054C42EA80000000000003156
+t1422143144
+s12630
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_scrollbar.cpp
+c0000000054C42EA80000000000005BED
+t1422143144
+s23533
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_separator.cpp
+c0000000054C42EA800000000000008CE
+t1422143144
+s2254
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_spinner.cpp
+c0000000054C42EA80000000000004492
+t1422143144
+s17554
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_statictext.cpp
+c0000000054C42EA80000000000000A4F
+t1422143144
+s2639
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_string.cpp
+c0000000054C42EA80000000000000722
+t1422143144
+s1826
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_textbox.cpp
+c0000000054C42EA800000000000079BB
+t1422143144
+s31163
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_translation.cpp
+c0000000054C42EA80000000000003F26
+t1422143144
+s16166
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_tree.cpp
+c0000000054C42EA80000000000001881
+t1422143144
+s6273
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_treepanel.cpp
+c0000000054C42EA80000000000002A12
+t1422143144
+s10770
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_window.cpp
+c0000000054C42EA80000000000000516
+t1422143144
+s1302
+
+N/Users/alex/Coding/geosim/liquidfun/Box2D/glui/quaternion.cpp
+c0000000054C42EA80000000000001706
+t1422143144
+s5894
+
+CBuild AST from /Users/alex/Coding/geosim/liquidfun/Box2D/glui/algebra3.cpp
+r0
+
+CBuild AST from /Users/alex/Coding/geosim/liquidfun/Box2D/glui/arcball.cpp
+r0
+
+CBuild AST from /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui.cpp
+r0
+
+CBuild AST from /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_add_controls.cpp
+r0
+
+CBuild AST from /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_bitmap_img_data.cpp
+r0
+
+CBuild AST from /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_bitmaps.cpp
+r0
+
+CBuild AST from /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_button.cpp
+r0
+
+CBuild AST from /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_checkbox.cpp
+r0
+
+CBuild AST from /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_column.cpp
+r0
+
+CBuild AST from /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_commandline.cpp
+r0
+
+CBuild AST from /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_control.cpp
+r0
+
+CBuild AST from /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_edittext.cpp
+r0
+
+CBuild AST from /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_filebrowser.cpp
+r0
+
+CBuild AST from /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_list.cpp
+r0
+
+CBuild AST from /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_listbox.cpp
+r0
+
+CBuild AST from /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_mouse_iaction.cpp
+r0
+
+CBuild AST from /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_node.cpp
+r0
+
+CBuild AST from /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_panel.cpp
+r0
+
+CBuild AST from /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_radio.cpp
+r0
+
+CBuild AST from /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_rollout.cpp
+r0
+
+CBuild AST from /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_rotation.cpp
+r0
+
+CBuild AST from /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_scrollbar.cpp
+r0
+
+CBuild AST from /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_separator.cpp
+r0
+
+CBuild AST from /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_spinner.cpp
+r0
+
+CBuild AST from /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_statictext.cpp
+r0
+
+CBuild AST from /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_string.cpp
+r0
+
+CBuild AST from /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_textbox.cpp
+r0
+
+CBuild AST from /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_translation.cpp
+r0
+
+CBuild AST from /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_tree.cpp
+r0
+
+CBuild AST from /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_treepanel.cpp
+r0
+
+CBuild AST from /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_window.cpp
+r0
+
+CBuild AST from /Users/alex/Coding/geosim/liquidfun/Box2D/glui/quaternion.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies3c88c1756a74ba41^467bc8756a74ba41^---0#1#1#--18"Check dependencies36"1B01B874-929C-43D4-A1BF-416463C8C567-
+
+CCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/algebra3.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/algebra3.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s443837045.765454
+e443837046.083056
+r1
+xCompileC
+xglui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/algebra3.o
+x/Users/alex/Coding/geosim/liquidfun/Box2D/glui/algebra3.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/algebra3.cpp
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/algebra3.h
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_internal.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/alex/Coding/geosim/liquidfun/Box2D/glui/algebra3.cpp155"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/algebra3.o glui/algebra3.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler6094c4756a74ba41^7c4315766a74ba41^---0#0#1#-19%DVTDocumentLocation2@75"file://localhost/Users/alex/Coding/geosim/liquidfun/Box2D/glui/algebra3.cpp0000000000000000^2381"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/algebra3.o glui/algebra3.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alex/Coding/geosim/liquidfun/Box2D    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DLIQUIDFUN_EXTERNAL_LANGUAGE_API=1 -DFREEGLUT_STATIC -D_CRT_SECURE_NO_WARNINGS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug/include -Iglui/../../../freeglut/include -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources/x86_64 -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources -Wall -Werror -Wno-long-long -Wno-variadic-macros -F/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks -Wall -Werror -Wno-long-long -Wno-variadic-macros -DDEBUG=1 -MMD -MT dependencies -MF /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/algebra3.d --serialize-diagnostics /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/algebra3.dia -c /Users/alex/Coding/geosim/liquidfun/Box2D/glui/algebra3.cpp -o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/algebra3.o36"24BD7A02-153A-4B9D-A0C7-BF01BBD1F9D1-
+b7DCA32E8-97F4-4964-8161-719C5A427113
+
+CCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/arcball.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/arcball.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s443837045.765735
+e443837045.999710
+r1
+xCompileC
+xglui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/arcball.o
+x/Users/alex/Coding/geosim/liquidfun/Box2D/glui/arcball.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/arcball.cpp
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/arcball.h
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_internal.h
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/algebra3.h
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/quaternion.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/alex/Coding/geosim/liquidfun/Box2D/glui/arcball.cpp153"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/arcball.o glui/arcball.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerde8ec4756a74ba41^8defff756a74ba41^---0#0#1#-19%DVTDocumentLocation2@74"file://localhost/Users/alex/Coding/geosim/liquidfun/Box2D/glui/arcball.cpp0000000000000000^2375"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/arcball.o glui/arcball.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alex/Coding/geosim/liquidfun/Box2D    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DLIQUIDFUN_EXTERNAL_LANGUAGE_API=1 -DFREEGLUT_STATIC -D_CRT_SECURE_NO_WARNINGS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug/include -Iglui/../../../freeglut/include -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources/x86_64 -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources -Wall -Werror -Wno-long-long -Wno-variadic-macros -F/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks -Wall -Werror -Wno-long-long -Wno-variadic-macros -DDEBUG=1 -MMD -MT dependencies -MF /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/arcball.d --serialize-diagnostics /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/arcball.dia -c /Users/alex/Coding/geosim/liquidfun/Box2D/glui/arcball.cpp -o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/arcball.o36"83D52B2F-1DEF-4658-A49F-BF801F5989E9-
+b7DCA32E8-97F4-4964-8161-719C5A427113
+
+CCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s443837045.766075
+e443837046.401503
+r1
+xCompileC
+xglui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui.o
+x/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui.cpp
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_internal_control.h
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut_std.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut_ext.h
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_internal.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui.cpp147"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui.o glui/glui.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerfe9ac4756a74ba41^b1dd6d766a74ba41^---0#0#1#-19%DVTDocumentLocation2@71"file://localhost/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui.cpp0000000000000000^2357"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui.o glui/glui.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alex/Coding/geosim/liquidfun/Box2D    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DLIQUIDFUN_EXTERNAL_LANGUAGE_API=1 -DFREEGLUT_STATIC -D_CRT_SECURE_NO_WARNINGS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug/include -Iglui/../../../freeglut/include -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources/x86_64 -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources -Wall -Werror -Wno-long-long -Wno-variadic-macros -F/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks -Wall -Werror -Wno-long-long -Wno-variadic-macros -DDEBUG=1 -MMD -MT dependencies -MF /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui.d --serialize-diagnostics /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui.dia -c /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui.cpp -o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui.o36"A89A8654-F328-405F-883C-BF9A8BF7DB15-
+b7DCA32E8-97F4-4964-8161-719C5A427113
+
+CCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_add_controls.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_add_controls.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s443837046.012993
+e443837046.511237
+r1
+xCompileC
+xglui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_add_controls.o
+x/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_add_controls.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_add_controls.cpp
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut_std.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut_ext.h
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_internal.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_add_controls.cpp173"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_add_controls.o glui/glui_add_controls.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler2a6f03766a74ba41^c40683766a74ba41^---0#0#1#-19%DVTDocumentLocation2@84"file://localhost/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_add_controls.cpp0000000000000000^2435"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_add_controls.o glui/glui_add_controls.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alex/Coding/geosim/liquidfun/Box2D    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DLIQUIDFUN_EXTERNAL_LANGUAGE_API=1 -DFREEGLUT_STATIC -D_CRT_SECURE_NO_WARNINGS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug/include -Iglui/../../../freeglut/include -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources/x86_64 -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources -Wall -Werror -Wno-long-long -Wno-variadic-macros -F/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks -Wall -Werror -Wno-long-long -Wno-variadic-macros -DDEBUG=1 -MMD -MT dependencies -MF /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_add_controls.d --serialize-diagnostics /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_add_controls.dia -c /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_add_controls.cpp -o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_add_controls.o36"42487A3D-A1F8-43DD-BE2A-A931B240685E-
+b7DCA32E8-97F4-4964-8161-719C5A427113
+
+CCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_bitmap_img_data.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_bitmap_img_data.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s443837046.125601
+e443837046.161158
+r1
+xCompileC
+xglui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_bitmap_img_data.o
+x/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_bitmap_img_data.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_bitmap_img_data.cpp
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_bitmap_img_data.cpp179"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_bitmap_img_data.o glui/glui_bitmap_img_data.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler254120766a74ba41^fc5029766a74ba41^---0#0#1#-19%DVTDocumentLocation2@87"file://localhost/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_bitmap_img_data.cpp0000000000000000^2453"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_bitmap_img_data.o glui/glui_bitmap_img_data.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alex/Coding/geosim/liquidfun/Box2D    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DLIQUIDFUN_EXTERNAL_LANGUAGE_API=1 -DFREEGLUT_STATIC -D_CRT_SECURE_NO_WARNINGS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug/include -Iglui/../../../freeglut/include -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources/x86_64 -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources -Wall -Werror -Wno-long-long -Wno-variadic-macros -F/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks -Wall -Werror -Wno-long-long -Wno-variadic-macros -DDEBUG=1 -MMD -MT dependencies -MF /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_bitmap_img_data.d --serialize-diagnostics /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_bitmap_img_data.dia -c /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_bitmap_img_data.cpp -o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_bitmap_img_data.o36"7E847858-8FE3-4818-AFFB-F4423B1304A7-
+b7DCA32E8-97F4-4964-8161-719C5A427113
+
+CCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_bitmaps.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_bitmaps.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s443837046.171876
+e443837046.659087
+r1
+xCompileC
+xglui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_bitmaps.o
+x/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_bitmaps.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_bitmaps.cpp
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut_std.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut_ext.h
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_internal.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_bitmaps.cpp163"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_bitmaps.o glui/glui_bitmaps.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerf4192c766a74ba41^feb9a8766a74ba41^---0#0#1#-19%DVTDocumentLocation2@79"file://localhost/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_bitmaps.cpp0000000000000000^2405"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_bitmaps.o glui/glui_bitmaps.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alex/Coding/geosim/liquidfun/Box2D    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DLIQUIDFUN_EXTERNAL_LANGUAGE_API=1 -DFREEGLUT_STATIC -D_CRT_SECURE_NO_WARNINGS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug/include -Iglui/../../../freeglut/include -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources/x86_64 -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources -Wall -Werror -Wno-long-long -Wno-variadic-macros -F/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks -Wall -Werror -Wno-long-long -Wno-variadic-macros -DDEBUG=1 -MMD -MT dependencies -MF /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_bitmaps.d --serialize-diagnostics /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_bitmaps.dia -c /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_bitmaps.cpp -o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_bitmaps.o36"97B23E7B-678E-4EF3-BF12-6F12A93F9224-
+b7DCA32E8-97F4-4964-8161-719C5A427113
+
+CCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_button.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_button.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s443837046.344526
+e443837046.924363
+r1
+xCompileC
+xglui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_button.o
+x/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_button.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_button.cpp
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_internal_control.h
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut_std.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut_ext.h
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_internal.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_button.cpp161"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_button.o glui/glui_button.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler994958766a74ba41^6ebfec766a74ba41^---0#0#1#-19%DVTDocumentLocation2@78"file://localhost/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_button.cpp0000000000000000^2399"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_button.o glui/glui_button.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alex/Coding/geosim/liquidfun/Box2D    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DLIQUIDFUN_EXTERNAL_LANGUAGE_API=1 -DFREEGLUT_STATIC -D_CRT_SECURE_NO_WARNINGS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug/include -Iglui/../../../freeglut/include -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources/x86_64 -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources -Wall -Werror -Wno-long-long -Wno-variadic-macros -F/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks -Wall -Werror -Wno-long-long -Wno-variadic-macros -DDEBUG=1 -MMD -MT dependencies -MF /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_button.d --serialize-diagnostics /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_button.dia -c /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_button.cpp -o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_button.o36"FFDF8210-D308-4799-8E6D-C1089CE90E19-
+b7DCA32E8-97F4-4964-8161-719C5A427113
+
+CCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_checkbox.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_checkbox.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s443837046.463430
+e443837047.050988
+r1
+xCompileC
+xglui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_checkbox.o
+x/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_checkbox.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_checkbox.cpp
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_internal_control.h
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut_std.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut_ext.h
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_internal.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_checkbox.cpp165"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_checkbox.o glui/glui_checkbox.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler49be76766a74ba41^9d0d0d776a74ba41^---0#0#1#-19%DVTDocumentLocation2@80"file://localhost/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_checkbox.cpp0000000000000000^2411"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_checkbox.o glui/glui_checkbox.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alex/Coding/geosim/liquidfun/Box2D    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DLIQUIDFUN_EXTERNAL_LANGUAGE_API=1 -DFREEGLUT_STATIC -D_CRT_SECURE_NO_WARNINGS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug/include -Iglui/../../../freeglut/include -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources/x86_64 -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources -Wall -Werror -Wno-long-long -Wno-variadic-macros -F/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks -Wall -Werror -Wno-long-long -Wno-variadic-macros -DDEBUG=1 -MMD -MT dependencies -MF /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_checkbox.d --serialize-diagnostics /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_checkbox.dia -c /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_checkbox.cpp -o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_checkbox.o36"B09DAD86-BFF8-41EB-8F9A-95525D0DB915-
+b7DCA32E8-97F4-4964-8161-719C5A427113
+
+CCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_column.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_column.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s443837046.652956
+e443837047.194739
+r1
+xCompileC
+xglui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_column.o
+x/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_column.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_column.cpp
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_internal_control.h
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut_std.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut_ext.h
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_internal.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_column.cpp161"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_column.o glui/glui_column.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerab42a7766a74ba41^9dda31776a74ba41^---0#0#1#-19%DVTDocumentLocation2@78"file://localhost/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_column.cpp0000000000000000^2399"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_column.o glui/glui_column.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alex/Coding/geosim/liquidfun/Box2D    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DLIQUIDFUN_EXTERNAL_LANGUAGE_API=1 -DFREEGLUT_STATIC -D_CRT_SECURE_NO_WARNINGS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug/include -Iglui/../../../freeglut/include -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources/x86_64 -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources -Wall -Werror -Wno-long-long -Wno-variadic-macros -F/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks -Wall -Werror -Wno-long-long -Wno-variadic-macros -DDEBUG=1 -MMD -MT dependencies -MF /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_column.d --serialize-diagnostics /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_column.dia -c /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_column.cpp -o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_column.o36"11B8CEF2-7058-4A6A-8E42-1AA8999F1DA0-
+b7DCA32E8-97F4-4964-8161-719C5A427113
+
+CCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_commandline.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_commandline.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s443837046.810432
+e443837047.413222
+r1
+xCompileC
+xglui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_commandline.o
+x/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_commandline.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_commandline.cpp
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut_std.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut_ext.h
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_internal.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_commandline.cpp171"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_commandline.o glui/glui_commandline.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler5793cf766a74ba41^7ae269776a74ba41^---0#0#1#-19%DVTDocumentLocation2@83"file://localhost/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_commandline.cpp0000000000000000^2429"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_commandline.o glui/glui_commandline.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alex/Coding/geosim/liquidfun/Box2D    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DLIQUIDFUN_EXTERNAL_LANGUAGE_API=1 -DFREEGLUT_STATIC -D_CRT_SECURE_NO_WARNINGS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug/include -Iglui/../../../freeglut/include -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources/x86_64 -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources -Wall -Werror -Wno-long-long -Wno-variadic-macros -F/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks -Wall -Werror -Wno-long-long -Wno-variadic-macros -DDEBUG=1 -MMD -MT dependencies -MF /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_commandline.d --serialize-diagnostics /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_commandline.dia -c /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_commandline.cpp -o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_commandline.o36"582E441A-AB15-46FE-ADFE-4DE024B717DC-
+b7DCA32E8-97F4-4964-8161-719C5A427113
+
+CCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_control.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_control.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s443837046.972990
+e443837047.543724
+r1
+xCompileC
+xglui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_control.o
+x/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_control.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_control.cpp
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_internal_control.h
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut_std.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut_ext.h
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_internal.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_control.cpp163"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_control.o glui/glui_control.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler942ef9766a74ba41^d1418b776a74ba41^---0#0#1#-19%DVTDocumentLocation2@79"file://localhost/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_control.cpp0000000000000000^2405"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_control.o glui/glui_control.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alex/Coding/geosim/liquidfun/Box2D    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DLIQUIDFUN_EXTERNAL_LANGUAGE_API=1 -DFREEGLUT_STATIC -D_CRT_SECURE_NO_WARNINGS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug/include -Iglui/../../../freeglut/include -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources/x86_64 -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources -Wall -Werror -Wno-long-long -Wno-variadic-macros -F/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks -Wall -Werror -Wno-long-long -Wno-variadic-macros -DDEBUG=1 -MMD -MT dependencies -MF /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_control.d --serialize-diagnostics /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_control.dia -c /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_control.cpp -o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_control.o36"FC1910CC-B6BE-45E0-9E10-7FC1E48492B9-
+b7DCA32E8-97F4-4964-8161-719C5A427113
+
+CCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_edittext.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_edittext.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s443837047.087366
+e443837047.678417
+r1
+xCompileC
+xglui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_edittext.o
+x/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_edittext.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_edittext.cpp
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_internal_control.h
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut_std.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut_ext.h
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_internal.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_edittext.cpp165"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_edittext.o glui/glui_edittext.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerd57716776a74ba41^75adad776a74ba41^---0#0#1#-19%DVTDocumentLocation2@80"file://localhost/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_edittext.cpp0000000000000000^2411"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_edittext.o glui/glui_edittext.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alex/Coding/geosim/liquidfun/Box2D    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DLIQUIDFUN_EXTERNAL_LANGUAGE_API=1 -DFREEGLUT_STATIC -D_CRT_SECURE_NO_WARNINGS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug/include -Iglui/../../../freeglut/include -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources/x86_64 -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources -Wall -Werror -Wno-long-long -Wno-variadic-macros -F/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks -Wall -Werror -Wno-long-long -Wno-variadic-macros -DDEBUG=1 -MMD -MT dependencies -MF /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_edittext.d --serialize-diagnostics /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_edittext.dia -c /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_edittext.cpp -o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_edittext.o36"F95A0ED7-0F56-4626-A7AD-5D0479CC0B01-
+b7DCA32E8-97F4-4964-8161-719C5A427113
+
+CCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_filebrowser.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_filebrowser.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s443837047.238871
+e443837047.766046
+r1
+xCompileC
+xglui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_filebrowser.o
+x/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_filebrowser.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_filebrowser.cpp
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut_std.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut_ext.h
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_internal.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_filebrowser.cpp171"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_filebrowser.o glui/glui_filebrowser.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compileree403d776a74ba41^861bc4776a74ba41^---0#0#1#-19%DVTDocumentLocation2@83"file://localhost/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_filebrowser.cpp0000000000000000^2429"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_filebrowser.o glui/glui_filebrowser.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alex/Coding/geosim/liquidfun/Box2D    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DLIQUIDFUN_EXTERNAL_LANGUAGE_API=1 -DFREEGLUT_STATIC -D_CRT_SECURE_NO_WARNINGS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug/include -Iglui/../../../freeglut/include -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources/x86_64 -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources -Wall -Werror -Wno-long-long -Wno-variadic-macros -F/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks -Wall -Werror -Wno-long-long -Wno-variadic-macros -DDEBUG=1 -MMD -MT dependencies -MF /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_filebrowser.d --serialize-diagnostics /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_filebrowser.dia -c /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_filebrowser.cpp -o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_filebrowser.o36"1448DCF2-18C2-4649-B51B-B8C18D4B8CAE-
+b7DCA32E8-97F4-4964-8161-719C5A427113
+
+CCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_list.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_list.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s443837047.392287
+e443837047.939040
+r1
+xCompileC
+xglui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_list.o
+x/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_list.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_list.cpp
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_internal_control.h
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut_std.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut_ext.h
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_internal.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_list.cpp157"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_list.o glui/glui_list.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler0e8864776a74ba41^1f65f0776a74ba41^---0#0#1#-19%DVTDocumentLocation2@76"file://localhost/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_list.cpp0000000000000000^2387"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_list.o glui/glui_list.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alex/Coding/geosim/liquidfun/Box2D    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DLIQUIDFUN_EXTERNAL_LANGUAGE_API=1 -DFREEGLUT_STATIC -D_CRT_SECURE_NO_WARNINGS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug/include -Iglui/../../../freeglut/include -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources/x86_64 -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources -Wall -Werror -Wno-long-long -Wno-variadic-macros -F/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks -Wall -Werror -Wno-long-long -Wno-variadic-macros -DDEBUG=1 -MMD -MT dependencies -MF /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_list.d --serialize-diagnostics /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_list.dia -c /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_list.cpp -o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_list.o36"F9A5EC2D-7005-4792-A77B-5F76AAD7FB9A-
+b7DCA32E8-97F4-4964-8161-719C5A427113
+
+CCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_listbox.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_listbox.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s443837047.491343
+e443837048.018412
+r1
+xCompileC
+xglui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_listbox.o
+x/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_listbox.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_listbox.cpp
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_internal_control.h
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut_std.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut_ext.h
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_internal.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_listbox.cpp163"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_listbox.o glui/glui_listbox.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler43e37d776a74ba41^a6b604786a74ba41^---0#0#1#-19%DVTDocumentLocation2@79"file://localhost/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_listbox.cpp0000000000000000^2405"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_listbox.o glui/glui_listbox.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alex/Coding/geosim/liquidfun/Box2D    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DLIQUIDFUN_EXTERNAL_LANGUAGE_API=1 -DFREEGLUT_STATIC -D_CRT_SECURE_NO_WARNINGS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug/include -Iglui/../../../freeglut/include -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources/x86_64 -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources -Wall -Werror -Wno-long-long -Wno-variadic-macros -F/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks -Wall -Werror -Wno-long-long -Wno-variadic-macros -DDEBUG=1 -MMD -MT dependencies -MF /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_listbox.d --serialize-diagnostics /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_listbox.dia -c /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_listbox.cpp -o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_listbox.o36"EF4D14B8-BEE2-4217-8FD7-5438E7825C16-
+b7DCA32E8-97F4-4964-8161-719C5A427113
+
+CCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_mouse_iaction.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_mouse_iaction.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s443837047.656971
+e443837048.141299
+r1
+xCompileC
+xglui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_mouse_iaction.o
+x/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_mouse_iaction.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_mouse_iaction.cpp
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_internal_control.h
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut_std.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut_ext.h
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_internal.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_mouse_iaction.cpp175"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_mouse_iaction.o glui/glui_mouse_iaction.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler514aa8776a74ba41^954624786a74ba41^---0#0#1#-19%DVTDocumentLocation2@85"file://localhost/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_mouse_iaction.cpp0000000000000000^2441"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_mouse_iaction.o glui/glui_mouse_iaction.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alex/Coding/geosim/liquidfun/Box2D    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DLIQUIDFUN_EXTERNAL_LANGUAGE_API=1 -DFREEGLUT_STATIC -D_CRT_SECURE_NO_WARNINGS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug/include -Iglui/../../../freeglut/include -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources/x86_64 -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources -Wall -Werror -Wno-long-long -Wno-variadic-macros -F/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks -Wall -Werror -Wno-long-long -Wno-variadic-macros -DDEBUG=1 -MMD -MT dependencies -MF /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_mouse_iaction.d --serialize-diagnostics /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_mouse_iaction.dia -c /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_mouse_iaction.cpp -o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_mouse_iaction.o36"52294674-A4EE-495E-834D-0EAC1BFA875F-
+b7DCA32E8-97F4-4964-8161-719C5A427113
+
+CCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_node.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_node.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s443837047.750854
+e443837048.220456
+r1
+xCompileC
+xglui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_node.o
+x/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_node.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_node.cpp
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut_std.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut_ext.h
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_internal.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_node.cpp157"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_node.o glui/glui_node.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerdb51c0776a74ba41^c28938786a74ba41^---0#0#1#-19%DVTDocumentLocation2@76"file://localhost/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_node.cpp0000000000000000^2387"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_node.o glui/glui_node.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alex/Coding/geosim/liquidfun/Box2D    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DLIQUIDFUN_EXTERNAL_LANGUAGE_API=1 -DFREEGLUT_STATIC -D_CRT_SECURE_NO_WARNINGS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug/include -Iglui/../../../freeglut/include -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources/x86_64 -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources -Wall -Werror -Wno-long-long -Wno-variadic-macros -F/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks -Wall -Werror -Wno-long-long -Wno-variadic-macros -DDEBUG=1 -MMD -MT dependencies -MF /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_node.d --serialize-diagnostics /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_node.dia -c /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_node.cpp -o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_node.o36"664DBEBD-B7AE-498D-B250-2995185BA412-
+b7DCA32E8-97F4-4964-8161-719C5A427113
+
+CCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_panel.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_panel.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s443837047.886897
+e443837048.388644
+r1
+xCompileC
+xglui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_panel.o
+x/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_panel.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_panel.cpp
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_internal_control.h
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut_std.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut_ext.h
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_internal.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_panel.cpp159"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_panel.o glui/glui_panel.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler0327e3776a74ba41^3d7e63786a74ba41^---0#0#1#-19%DVTDocumentLocation2@77"file://localhost/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_panel.cpp0000000000000000^2393"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_panel.o glui/glui_panel.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alex/Coding/geosim/liquidfun/Box2D    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DLIQUIDFUN_EXTERNAL_LANGUAGE_API=1 -DFREEGLUT_STATIC -D_CRT_SECURE_NO_WARNINGS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug/include -Iglui/../../../freeglut/include -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources/x86_64 -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources -Wall -Werror -Wno-long-long -Wno-variadic-macros -F/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks -Wall -Werror -Wno-long-long -Wno-variadic-macros -DDEBUG=1 -MMD -MT dependencies -MF /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_panel.d --serialize-diagnostics /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_panel.dia -c /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_panel.cpp -o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_panel.o36"C6F435E6-261C-4F3E-BBFF-FCE4538CC92E-
+b7DCA32E8-97F4-4964-8161-719C5A427113
+
+CCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_radio.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_radio.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s443837048.019833
+e443837048.537962
+r1
+xCompileC
+xglui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_radio.o
+x/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_radio.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_radio.cpp
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_internal_control.h
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut_std.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut_ext.h
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_internal.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_radio.cpp159"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_radio.o glui/glui_radio.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerf12c05786a74ba41^e1b789786a74ba41^---0#0#1#-19%DVTDocumentLocation2@77"file://localhost/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_radio.cpp0000000000000000^2393"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_radio.o glui/glui_radio.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alex/Coding/geosim/liquidfun/Box2D    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DLIQUIDFUN_EXTERNAL_LANGUAGE_API=1 -DFREEGLUT_STATIC -D_CRT_SECURE_NO_WARNINGS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug/include -Iglui/../../../freeglut/include -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources/x86_64 -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources -Wall -Werror -Wno-long-long -Wno-variadic-macros -F/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks -Wall -Werror -Wno-long-long -Wno-variadic-macros -DDEBUG=1 -MMD -MT dependencies -MF /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_radio.d --serialize-diagnostics /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_radio.dia -c /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_radio.cpp -o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_radio.o36"9E579A10-6803-4DD8-9F29-F01CB0817243-
+b7DCA32E8-97F4-4964-8161-719C5A427113
+
+CCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_rollout.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_rollout.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s443837048.159727
+e443837048.679279
+r1
+xCompileC
+xglui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_rollout.o
+x/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_rollout.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_rollout.cpp
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_internal_control.h
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut_std.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut_ext.h
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_internal.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_rollout.cpp163"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_rollout.o glui/glui_rollout.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerdaff28786a74ba41^19e5ad786a74ba41^---0#0#1#-19%DVTDocumentLocation2@79"file://localhost/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_rollout.cpp0000000000000000^2405"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_rollout.o glui/glui_rollout.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alex/Coding/geosim/liquidfun/Box2D    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DLIQUIDFUN_EXTERNAL_LANGUAGE_API=1 -DFREEGLUT_STATIC -D_CRT_SECURE_NO_WARNINGS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug/include -Iglui/../../../freeglut/include -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources/x86_64 -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources -Wall -Werror -Wno-long-long -Wno-variadic-macros -F/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks -Wall -Werror -Wno-long-long -Wno-variadic-macros -DDEBUG=1 -MMD -MT dependencies -MF /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_rollout.d --serialize-diagnostics /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_rollout.dia -c /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_rollout.cpp -o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_rollout.o36"48A3EB8C-73E3-4F72-A3D8-B1BFFA4458EB-
+b7DCA32E8-97F4-4964-8161-719C5A427113
+
+CCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_rotation.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_rotation.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s443837048.221819
+e443837048.634612
+r1
+xCompileC
+xglui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_rotation.o
+x/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_rotation.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_rotation.cpp
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut_std.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut_ext.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_rotation.cpp165"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_rotation.o glui/glui_rotation.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler5de238786a74ba41^9d80a2786a74ba41^---0#0#1#-19%DVTDocumentLocation2@80"file://localhost/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_rotation.cpp0000000000000000^2411"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_rotation.o glui/glui_rotation.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alex/Coding/geosim/liquidfun/Box2D    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DLIQUIDFUN_EXTERNAL_LANGUAGE_API=1 -DFREEGLUT_STATIC -D_CRT_SECURE_NO_WARNINGS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug/include -Iglui/../../../freeglut/include -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources/x86_64 -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources -Wall -Werror -Wno-long-long -Wno-variadic-macros -F/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks -Wall -Werror -Wno-long-long -Wno-variadic-macros -DDEBUG=1 -MMD -MT dependencies -MF /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_rotation.d --serialize-diagnostics /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_rotation.dia -c /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_rotation.cpp -o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_rotation.o36"E828D6CE-078C-4A35-8EFA-D7C6B8046D61-
+b7DCA32E8-97F4-4964-8161-719C5A427113
+
+CCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_scrollbar.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_scrollbar.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s443837048.390079
+e443837048.949930
+r1
+xCompileC
+xglui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_scrollbar.o
+x/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_scrollbar.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_scrollbar.cpp
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_internal_control.h
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut_std.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut_ext.h
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_internal.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_scrollbar.cpp167"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_scrollbar.o glui/glui_scrollbar.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compileradf763786a74ba41^cf2ef3786a74ba41^---0#0#1#-19%DVTDocumentLocation2@81"file://localhost/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_scrollbar.cpp0000000000000000^2417"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_scrollbar.o glui/glui_scrollbar.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alex/Coding/geosim/liquidfun/Box2D    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DLIQUIDFUN_EXTERNAL_LANGUAGE_API=1 -DFREEGLUT_STATIC -D_CRT_SECURE_NO_WARNINGS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug/include -Iglui/../../../freeglut/include -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources/x86_64 -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources -Wall -Werror -Wno-long-long -Wno-variadic-macros -F/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks -Wall -Werror -Wno-long-long -Wno-variadic-macros -DDEBUG=1 -MMD -MT dependencies -MF /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_scrollbar.d --serialize-diagnostics /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_scrollbar.dia -c /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_scrollbar.cpp -o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_scrollbar.o36"6EB383BF-D99E-4B18-B3CB-E40DB003A7E8-
+b7DCA32E8-97F4-4964-8161-719C5A427113
+
+CCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_separator.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_separator.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s443837048.574884
+e443837049.082610
+r1
+xCompileC
+xglui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_separator.o
+x/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_separator.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_separator.cpp
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_internal_control.h
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut_std.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut_ext.h
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_internal.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_separator.cpp167"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_separator.o glui/glui_separator.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerd04593786a74ba41^202615796a74ba41^---0#0#1#-19%DVTDocumentLocation2@81"file://localhost/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_separator.cpp0000000000000000^2417"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_separator.o glui/glui_separator.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alex/Coding/geosim/liquidfun/Box2D    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DLIQUIDFUN_EXTERNAL_LANGUAGE_API=1 -DFREEGLUT_STATIC -D_CRT_SECURE_NO_WARNINGS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug/include -Iglui/../../../freeglut/include -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources/x86_64 -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources -Wall -Werror -Wno-long-long -Wno-variadic-macros -F/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks -Wall -Werror -Wno-long-long -Wno-variadic-macros -DDEBUG=1 -MMD -MT dependencies -MF /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_separator.d --serialize-diagnostics /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_separator.dia -c /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_separator.cpp -o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_separator.o36"A5302D54-04F8-4834-A270-8901273913F4-
+b7DCA32E8-97F4-4964-8161-719C5A427113
+
+CCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_spinner.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_spinner.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s443837048.681180
+e443837049.219113
+r1
+xCompileC
+xglui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_spinner.o
+x/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_spinner.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_spinner.cpp
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_internal_control.h
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut_std.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut_ext.h
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_internal.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_spinner.cpp163"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_spinner.o glui/glui_spinner.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilera77aae786a74ba41^fc1738796a74ba41^---0#0#1#-19%DVTDocumentLocation2@79"file://localhost/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_spinner.cpp0000000000000000^2405"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_spinner.o glui/glui_spinner.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alex/Coding/geosim/liquidfun/Box2D    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DLIQUIDFUN_EXTERNAL_LANGUAGE_API=1 -DFREEGLUT_STATIC -D_CRT_SECURE_NO_WARNINGS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug/include -Iglui/../../../freeglut/include -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources/x86_64 -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources -Wall -Werror -Wno-long-long -Wno-variadic-macros -F/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks -Wall -Werror -Wno-long-long -Wno-variadic-macros -DDEBUG=1 -MMD -MT dependencies -MF /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_spinner.d --serialize-diagnostics /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_spinner.dia -c /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_spinner.cpp -o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_spinner.o36"03E09549-3445-4A96-B34F-FC40D14EB36D-
+b7DCA32E8-97F4-4964-8161-719C5A427113
+
+CCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_statictext.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_statictext.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s443837048.879549
+e443837049.386288
+r1
+xCompileC
+xglui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_statictext.o
+x/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_statictext.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_statictext.cpp
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_internal_control.h
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut_std.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut_ext.h
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_internal.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_statictext.cpp169"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_statictext.o glui/glui_statictext.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler3943e1786a74ba41^23f675796a74ba41^---0#0#1#-19%DVTDocumentLocation2@82"file://localhost/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_statictext.cpp0000000000000000^2423"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_statictext.o glui/glui_statictext.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alex/Coding/geosim/liquidfun/Box2D    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DLIQUIDFUN_EXTERNAL_LANGUAGE_API=1 -DFREEGLUT_STATIC -D_CRT_SECURE_NO_WARNINGS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug/include -Iglui/../../../freeglut/include -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources/x86_64 -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources -Wall -Werror -Wno-long-long -Wno-variadic-macros -F/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks -Wall -Werror -Wno-long-long -Wno-variadic-macros -DDEBUG=1 -MMD -MT dependencies -MF /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_statictext.d --serialize-diagnostics /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_statictext.dia -c /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_statictext.cpp -o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_statictext.o36"564B52FB-C962-4559-BE45-B7ED5516D820-
+b7DCA32E8-97F4-4964-8161-719C5A427113
+
+CCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_string.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_string.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s443837048.951366
+e443837049.375573
+r1
+xCompileC
+xglui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_string.o
+x/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_string.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_string.cpp
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut_std.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut_ext.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_string.cpp161"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_string.o glui/glui_string.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler93a8f3786a74ba41^f71f61796a74ba41^---0#0#1#-19%DVTDocumentLocation2@78"file://localhost/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_string.cpp0000000000000000^2399"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_string.o glui/glui_string.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alex/Coding/geosim/liquidfun/Box2D    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DLIQUIDFUN_EXTERNAL_LANGUAGE_API=1 -DFREEGLUT_STATIC -D_CRT_SECURE_NO_WARNINGS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug/include -Iglui/../../../freeglut/include -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources/x86_64 -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources -Wall -Werror -Wno-long-long -Wno-variadic-macros -F/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks -Wall -Werror -Wno-long-long -Wno-variadic-macros -DDEBUG=1 -MMD -MT dependencies -MF /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_string.d --serialize-diagnostics /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_string.dia -c /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_string.cpp -o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_string.o36"2DDAB5CD-BC42-47CE-B162-39B8536F2034-
+b7DCA32E8-97F4-4964-8161-719C5A427113
+
+CCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_textbox.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_textbox.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s443837049.220519
+e443837049.841548
+r1
+xCompileC
+xglui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_textbox.o
+x/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_textbox.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_textbox.cpp
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_internal_control.h
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut_std.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut_ext.h
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_internal.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_textbox.cpp163"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_textbox.o glui/glui_textbox.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler1d9438796a74ba41^5588d7796a74ba41^---0#0#1#-19%DVTDocumentLocation2@79"file://localhost/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_textbox.cpp0000000000000000^2405"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_textbox.o glui/glui_textbox.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alex/Coding/geosim/liquidfun/Box2D    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DLIQUIDFUN_EXTERNAL_LANGUAGE_API=1 -DFREEGLUT_STATIC -D_CRT_SECURE_NO_WARNINGS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug/include -Iglui/../../../freeglut/include -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources/x86_64 -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources -Wall -Werror -Wno-long-long -Wno-variadic-macros -F/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks -Wall -Werror -Wno-long-long -Wno-variadic-macros -DDEBUG=1 -MMD -MT dependencies -MF /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_textbox.d --serialize-diagnostics /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_textbox.dia -c /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_textbox.cpp -o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_textbox.o36"A5540925-0CA8-4119-97AA-1E02E9C345CA-
+b7DCA32E8-97F4-4964-8161-719C5A427113
+
+CCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_translation.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_translation.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s443837049.304017
+e443837049.837562
+r1
+xCompileC
+xglui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_translation.o
+x/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_translation.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_translation.cpp
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut_std.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut_ext.h
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_internal.h
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/algebra3.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_translation.cpp171"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_translation.o glui/glui_translation.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler62f34d796a74ba41^529dd6796a74ba41^---0#0#1#-19%DVTDocumentLocation2@83"file://localhost/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_translation.cpp0000000000000000^2429"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_translation.o glui/glui_translation.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alex/Coding/geosim/liquidfun/Box2D    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DLIQUIDFUN_EXTERNAL_LANGUAGE_API=1 -DFREEGLUT_STATIC -D_CRT_SECURE_NO_WARNINGS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug/include -Iglui/../../../freeglut/include -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources/x86_64 -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources -Wall -Werror -Wno-long-long -Wno-variadic-macros -F/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks -Wall -Werror -Wno-long-long -Wno-variadic-macros -DDEBUG=1 -MMD -MT dependencies -MF /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_translation.d --serialize-diagnostics /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_translation.dia -c /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_translation.cpp -o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_translation.o36"D1EDAA6E-37A3-47AB-B3ED-69D6AAA5E7C3-
+b7DCA32E8-97F4-4964-8161-719C5A427113
+
+CCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_tree.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_tree.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s443837049.415309
+e443837049.937688
+r1
+xCompileC
+xglui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_tree.o
+x/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_tree.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_tree.cpp
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_internal_control.h
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut_std.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut_ext.h
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_internal.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_tree.cpp157"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_tree.o glui/glui_tree.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerc26c6a796a74ba41^2639f0796a74ba41^---0#0#1#-19%DVTDocumentLocation2@76"file://localhost/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_tree.cpp0000000000000000^2387"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_tree.o glui/glui_tree.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alex/Coding/geosim/liquidfun/Box2D    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DLIQUIDFUN_EXTERNAL_LANGUAGE_API=1 -DFREEGLUT_STATIC -D_CRT_SECURE_NO_WARNINGS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug/include -Iglui/../../../freeglut/include -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources/x86_64 -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources -Wall -Werror -Wno-long-long -Wno-variadic-macros -F/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks -Wall -Werror -Wno-long-long -Wno-variadic-macros -DDEBUG=1 -MMD -MT dependencies -MF /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_tree.d --serialize-diagnostics /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_tree.dia -c /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_tree.cpp -o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_tree.o36"059CF5C6-E87D-4BB5-A1D1-E9CA29ED96B0-
+b7DCA32E8-97F4-4964-8161-719C5A427113
+
+CCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_treepanel.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_treepanel.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s443837049.618672
+e443837050.103382
+r1
+xCompileC
+xglui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_treepanel.o
+x/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_treepanel.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_treepanel.cpp
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut_std.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut_ext.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_treepanel.cpp167"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_treepanel.o glui/glui_treepanel.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerbf7c9e796a74ba41^088f1a7a6a74ba41^---0#0#1#-19%DVTDocumentLocation2@81"file://localhost/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_treepanel.cpp0000000000000000^2417"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_treepanel.o glui/glui_treepanel.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alex/Coding/geosim/liquidfun/Box2D    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DLIQUIDFUN_EXTERNAL_LANGUAGE_API=1 -DFREEGLUT_STATIC -D_CRT_SECURE_NO_WARNINGS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug/include -Iglui/../../../freeglut/include -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources/x86_64 -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources -Wall -Werror -Wno-long-long -Wno-variadic-macros -F/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks -Wall -Werror -Wno-long-long -Wno-variadic-macros -DDEBUG=1 -MMD -MT dependencies -MF /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_treepanel.d --serialize-diagnostics /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_treepanel.dia -c /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_treepanel.cpp -o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_treepanel.o36"ACC260A9-7D2A-42E1-BAB9-7A8F51C2D809-
+b7DCA32E8-97F4-4964-8161-719C5A427113
+
+CCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_window.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_window.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s443837049.758747
+e443837050.222555
+r1
+xCompileC
+xglui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_window.o
+x/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_window.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_window.cpp
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut_std.h
+d/Users/alex/Coding/geosim/freeglut/include/GL/freeglut_ext.h
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_internal.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_window.cpp161"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_window.o glui/glui_window.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler9757c2796a74ba41^7f2f397a6a74ba41^---0#0#1#-19%DVTDocumentLocation2@78"file://localhost/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_window.cpp0000000000000000^2399"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_window.o glui/glui_window.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alex/Coding/geosim/liquidfun/Box2D    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DLIQUIDFUN_EXTERNAL_LANGUAGE_API=1 -DFREEGLUT_STATIC -D_CRT_SECURE_NO_WARNINGS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug/include -Iglui/../../../freeglut/include -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources/x86_64 -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources -Wall -Werror -Wno-long-long -Wno-variadic-macros -F/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks -Wall -Werror -Wno-long-long -Wno-variadic-macros -DDEBUG=1 -MMD -MT dependencies -MF /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_window.d --serialize-diagnostics /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_window.dia -c /Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_window.cpp -o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui_window.o36"A209BCE8-37A2-4199-B9B3-3DCACB2B9E2B-
+b7DCA32E8-97F4-4964-8161-719C5A427113
+
+CCompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/quaternion.o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/quaternion.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s443837049.863325
+e443837049.991200
+r1
+xCompileC
+xglui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/quaternion.o
+x/Users/alex/Coding/geosim/liquidfun/Box2D/glui/quaternion.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/quaternion.cpp
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/quaternion.h
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/algebra3.h
+d/Users/alex/Coding/geosim/liquidfun/Box2D/glui/glui_internal.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/alex/Coding/geosim/liquidfun/Box2D/glui/quaternion.cpp159"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/quaternion.o glui/quaternion.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler4222dd796a74ba41^f9d8fd796a74ba41^---0#0#1#-19%DVTDocumentLocation2@77"file://localhost/Users/alex/Coding/geosim/liquidfun/Box2D/glui/quaternion.cpp0000000000000000^2393"CompileC glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/quaternion.o glui/quaternion.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alex/Coding/geosim/liquidfun/Box2D    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DLIQUIDFUN_EXTERNAL_LANGUAGE_API=1 -DFREEGLUT_STATIC -D_CRT_SECURE_NO_WARNINGS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug/include -Iglui/../../../freeglut/include -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources/x86_64 -I/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/DerivedSources -Wall -Werror -Wno-long-long -Wno-variadic-macros -F/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks -Wall -Werror -Wno-long-long -Wno-variadic-macros -DDEBUG=1 -MMD -MT dependencies -MF /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/quaternion.d --serialize-diagnostics /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/quaternion.dia -c /Users/alex/Coding/geosim/liquidfun/Box2D/glui/quaternion.cpp -o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/quaternion.o36"C084C9E9-22C1-4C41-97EB-D66DC4766D3A-
+b7DCA32E8-97F4-4964-8161-719C5A427113
+
+CLibtool /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug/libglui.a normal x86_64
+s443837050.388288
+e443837050.420178
+r1
+xLibtool
+x/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug/libglui.a
+xnormal
+xx86_64
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Libtool glui/Debug/libglui.a normal x86_6442"Libtool glui/Debug/libglui.a normal x86_643678637a6a74ba41^07d06f7a6a74ba41^---0#0#1#--616"Libtool glui/Debug/libglui.a normal x86_64    cd /Users/alex/Coding/geosim/liquidfun/Box2D    export MACOSX_DEPLOYMENT_TARGET=10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug -filelist /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Box2D.build/Debug/glui.build/Objects-normal/x86_64/glui.LinkFileList -o /Users/alex/Coding/geosim/liquidfun/Box2D/glui/Debug/libglui.a36"479BFDC7-570D-497A-AC8B-117369EE923A-
+b7DCA32E8-97F4-4964-8161-719C5A427113
+
